@@ -129,7 +129,7 @@
                 $("#art-description").text(data.description);
                 $("#art-data").text(JSON.stringify(data, undefined, 2))
                 $("#goto-button").click(function(){
-                    window.location.href = url + contract + "/" + data.id;
+                    window.location.href = url + contract + "/" + data.ID;
                 })
             });
         });
