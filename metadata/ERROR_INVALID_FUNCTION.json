@@ -1,0 +1,33 @@
+{
+    "id": 1,
+    "name": "ERROR_INVALID_FUNCTION",
+    "description": "Incorrect function.",
+    "attributes": [
+        {
+            "trait_type": "level",
+            "value": 1
+        },
+        {
+            "display_type": "number",
+            "trait_type": "index",
+            "value": 0.005
+        },
+        {
+            "display_type": "number",
+            "trait_type": "frame",
+            "value": 7787
+        },
+        {                    
+            "trait_type": "error_code",
+            "value": "1 (0x1)"
+        },                
+        {
+            "trait_type": "collection",
+            "value": "data-city-grid"
+        },
+        {
+            "trait_type": "artist",
+            "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+        }
+    ]
+}
