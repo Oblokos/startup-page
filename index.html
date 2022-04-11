@@ -79,7 +79,7 @@
                     </div>
                     <div class="col-sm-12 text-white">
                         <h1 id="art-title" class="display-6 text-white">Metadata</h1>
-                        <pre id="art-data">                          
+                        <pre id="art-data">
                         </pre>
                     </div>
                 </div>
@@ -92,10 +92,12 @@
         </div>
         <footer style="padding-bottom: 16px;padding-top: 16px; padding-left: 16px;">
             <a href="https://www.instagram.com/art.oblokos/">Instagram</a>
-            <a href="https://www.facebook.com/art.oblokos">Facebook</a>     
-            <a href="https://twitter.com/oblokos">Facebook</a>            
+            <a href="https://www.facebook.com/art.oblokos">Facebook</a>
+            <a href="https://twitter.com/oblokos">Twitter</a>
+            <a href="https://github.com/Oblokos">Github</a>
             <p>
-                Our website <a href="https://www.oblokos.com">www.oblokos.com</a> is under construction, we will be online soon.
+                Our website <a href="https://www.oblokos.com">www.oblokos.com</a> is under construction, we will be
+                online soon.
             </p>
         </footer>
     </div>
@@ -106,14 +108,14 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
-    
+
     <script type="text/javascript">
         window.onload = function () {
             setTimeout(function () {
                 document.getElementById("loader").remove();
             }, 1000);
         };
-    </script>    
+    </script>
     <script type="text/javascript">
         const contract = "0xf55e059ee728d5f0ad25380f87e72c489973141c";
         const url = "https://testnets.opensea.io/assets/mumbai/";
@@ -124,11 +126,11 @@
 
         var hasLoad = false;
 
-        $(document).ready(function(e) {
+        $(document).ready(function (e) {
             const art = params.art;
-            $.getJSON("metadata/" + art + ".json", function(data) {
-                
-                $("#art").on('error', function() { 
+            $.getJSON("metadata/" + art + ".json", function (data) {
+
+                $("#art").on('error', function () {
                     if (hasLoad) {
                         return;
                     }
@@ -140,7 +142,7 @@
                 $("#art-title").text(data.name);
                 $("#art-description").text(data.description);
                 $("#art-data").text(JSON.stringify(data, undefined, 2))
-                $("#goto-button").click(function(){
+                $("#goto-button").click(function () {
                     window.location.href = url + contract + "/" + data.ID;
                 })
             });
