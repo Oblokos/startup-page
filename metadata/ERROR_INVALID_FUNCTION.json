@@ -3,7 +3,8 @@
     "name": "ERROR_INVALID_FUNCTION",
     "description": "Incorrect function.",
     "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FUNCTION",
-    "image": "https://gateway.ipfs.io/ipfs/QmYSpcW5qHQecbcmUFyfJaZhXLWkHjuWvab98mKjNcxRFX",
+    "image": "https://github.oblokos.com/art/ERROR_INVALID_FUNCTION.png",
+    "image_hq": "https://gateway.ipfs.io/ipfs/QmYSpcW5qHQecbcmUFyfJaZhXLWkHjuWvab98mKjNcxRFX",
     "attributes": [
         {
             "trait_type": "level",

@@ -121,10 +121,21 @@
             get: (searchParams, prop) => searchParams.get(prop),
         });
 
+        var hasLoad = false;
+
         $(document).ready(function(e) {
             const art = params.art;
             $.getJSON("metadata/" + art + ".json", function(data) {
-                $("#art").attr("src", data.image);
+                
+                $("#art").on('error', function() { 
+                    if (hasLoad) {
+                        return;
+                    }
+
+                    hasLoad = true;
+                    $("#art").attr("src", data.image);
+                }).attr("src", data.image_hq);
+
                 $("#art-title").text(data.name);
                 $("#art-description").text(data.description);
                 $("#art-data").text(JSON.stringify(data, undefined, 2))
