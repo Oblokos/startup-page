@@ -1,10 +1,10 @@
 {
-  "id": 100,
+  "id": 99,
   "name": "ERROR_IS_JOINED",
   "description": "An attempt was made to use a JOIN or SUBST command on a drive that has already been joined.",
   "external_url": "https://github.oblokos.com/?art=ERROR_IS_JOINED",
   "image": "https://github.oblokos.com/art/ERROR_IS_JOINED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/100",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/99",
   "attributes": [
     {
       "trait_type": "artist",

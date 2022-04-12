@@ -1,10 +1,10 @@
 {
-  "id": 95,
+  "id": 94,
   "name": "ERROR_WAIT_NO_CHILDREN",
   "description": "There are no child processes to wait for.",
   "external_url": "https://github.oblokos.com/?art=ERROR_WAIT_NO_CHILDREN",
   "image": "https://github.oblokos.com/art/ERROR_WAIT_NO_CHILDREN.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/95",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/94",
   "attributes": [
     {
       "trait_type": "artist",

@@ -1,10 +1,10 @@
 {
-  "id": 196,
+  "id": 195,
   "name": "ERROR_DELETE_PENDING",
   "description": "The file cannot be opened because it is in the process of being deleted.",
   "external_url": "https://github.oblokos.com/?art=ERROR_DELETE_PENDING",
   "image": "https://github.oblokos.com/art/ERROR_DELETE_PENDING.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/196",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/195",
   "attributes": [
     {
       "trait_type": "artist",

@@ -1,10 +1,10 @@
 {
-  "id": 72,
+  "id": 71,
   "name": "ERROR_TOO_MANY_SEM_REQUESTS",
   "description": "The semaphore cannot be set again.",
   "external_url": "https://github.oblokos.com/?art=ERROR_TOO_MANY_SEM_REQUESTS",
   "image": "https://github.oblokos.com/art/ERROR_TOO_MANY_SEM_REQUESTS.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/72",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/71",
   "attributes": [
     {
       "trait_type": "artist",

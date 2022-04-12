@@ -1,10 +1,10 @@
 {
-  "id": 114,
+  "id": 113,
   "name": "ERROR_PATH_BUSY",
   "description": "The path specified cannot be used at this time.",
   "external_url": "https://github.oblokos.com/?art=ERROR_PATH_BUSY",
   "image": "https://github.oblokos.com/art/ERROR_PATH_BUSY.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/114",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/113",
   "attributes": [
     {
       "trait_type": "artist",

@@ -1,10 +1,10 @@
 {
-  "id": 201,
+  "id": 200,
   "name": "ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT",
   "description": "The subsystem needed to support the image type is not present.",
   "external_url": "https://github.oblokos.com/?art=ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT",
   "image": "https://github.oblokos.com/art/ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/201",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/200",
   "attributes": [
     {
       "trait_type": "artist",

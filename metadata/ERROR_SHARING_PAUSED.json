@@ -1,10 +1,10 @@
 {
-  "id": 57,
+  "id": 56,
   "name": "ERROR_SHARING_PAUSED",
   "description": "The remote server has been paused or is in the process of being started.",
   "external_url": "https://github.oblokos.com/?art=ERROR_SHARING_PAUSED",
   "image": "https://github.oblokos.com/art/ERROR_SHARING_PAUSED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/57",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/56",
   "attributes": [
     {
       "trait_type": "artist",

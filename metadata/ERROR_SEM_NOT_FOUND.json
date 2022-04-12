@@ -1,10 +1,10 @@
 {
-  "id": 139,
+  "id": 138,
   "name": "ERROR_SEM_NOT_FOUND",
   "description": "The specified system semaphore name was not found.",
   "external_url": "https://github.oblokos.com/?art=ERROR_SEM_NOT_FOUND",
   "image": "https://github.oblokos.com/art/ERROR_SEM_NOT_FOUND.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/139",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/138",
   "attributes": [
     {
       "trait_type": "artist",

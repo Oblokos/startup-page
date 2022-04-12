@@ -1,10 +1,10 @@
 {
-  "id": 109,
+  "id": 108,
   "name": "ERROR_SAME_DRIVE",
   "description": "The system cannot join or substitute a drive to or for a directory on the same drive.",
   "external_url": "https://github.oblokos.com/?art=ERROR_SAME_DRIVE",
   "image": "https://github.oblokos.com/art/ERROR_SAME_DRIVE.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/109",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/108",
   "attributes": [
     {
       "trait_type": "artist",

@@ -1,10 +1,10 @@
 {
-  "id": 97,
+  "id": 96,
   "name": "ERROR_NEGATIVE_SEEK",
   "description": "An attempt was made to move the file pointer before the beginning of the file.",
   "external_url": "https://github.oblokos.com/?art=ERROR_NEGATIVE_SEEK",
   "image": "https://github.oblokos.com/art/ERROR_NEGATIVE_SEEK.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/97",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/96",
   "attributes": [
     {
       "trait_type": "artist",

@@ -1,10 +1,10 @@
 {
-  "id": 99,
+  "id": 98,
   "name": "ERROR_IS_JOIN_TARGET",
   "description": "A JOIN or SUBST command cannot be used for a drive that contains previously joined drives.",
   "external_url": "https://github.oblokos.com/?art=ERROR_IS_JOIN_TARGET",
   "image": "https://github.oblokos.com/art/ERROR_IS_JOIN_TARGET.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/99",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/98",
   "attributes": [
     {
       "trait_type": "artist",

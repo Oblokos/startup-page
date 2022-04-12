@@ -1,10 +1,10 @@
 {
-  "id": 128,
+  "id": 127,
   "name": "ERROR_SIGNAL_PENDING",
   "description": "A signal is already pending.",
   "external_url": "https://github.oblokos.com/?art=ERROR_SIGNAL_PENDING",
   "image": "https://github.oblokos.com/art/ERROR_SIGNAL_PENDING.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/128",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/127",
   "attributes": [
     {
       "trait_type": "artist",

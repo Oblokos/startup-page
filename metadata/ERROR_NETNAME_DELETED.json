@@ -1,10 +1,10 @@
 {
-  "id": 51,
+  "id": 50,
   "name": "ERROR_NETNAME_DELETED",
   "description": "The specified network name is no longer available.",
   "external_url": "https://github.oblokos.com/?art=ERROR_NETNAME_DELETED",
   "image": "https://github.oblokos.com/art/ERROR_NETNAME_DELETED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/51",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/50",
   "attributes": [
     {
       "trait_type": "artist",

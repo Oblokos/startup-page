@@ -1,10 +1,10 @@
 {
-  "id": 148,
+  "id": 147,
   "name": "ERROR_INVALID_SEGDPL",
   "description": "The operating system cannot run %1.",
   "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_SEGDPL",
   "image": "https://github.oblokos.com/art/ERROR_INVALID_SEGDPL.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/148",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/147",
   "attributes": [
     {
       "trait_type": "artist",

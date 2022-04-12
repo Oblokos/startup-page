@@ -1,10 +1,10 @@
 {
-  "id": 154,
+  "id": 153,
   "name": "ERROR_NO_SIGNAL_SENT",
   "description": "No process in the command subtree has a signal handler.",
   "external_url": "https://github.oblokos.com/?art=ERROR_NO_SIGNAL_SENT",
   "image": "https://github.oblokos.com/art/ERROR_NO_SIGNAL_SENT.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/154",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/153",
   "attributes": [
     {
       "trait_type": "artist",

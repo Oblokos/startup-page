@@ -1,10 +1,10 @@
 {
-  "id": 76,
+  "id": 75,
   "name": "ERROR_DISK_CHANGE",
   "description": "The program stopped because an alternate diskette was not inserted.",
   "external_url": "https://github.oblokos.com/?art=ERROR_DISK_CHANGE",
   "image": "https://github.oblokos.com/art/ERROR_DISK_CHANGE.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/76",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/75",
   "attributes": [
     {
       "trait_type": "artist",

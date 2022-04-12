@@ -1,10 +1,10 @@
 {
-  "id": 189,
+  "id": 188,
   "name": "ERROR_EAS_NOT_SUPPORTED",
   "description": "The mounted file system does not support extended attributes.",
   "external_url": "https://github.oblokos.com/?art=ERROR_EAS_NOT_SUPPORTED",
   "image": "https://github.oblokos.com/art/ERROR_EAS_NOT_SUPPORTED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/189",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/188",
   "attributes": [
     {
       "trait_type": "artist",

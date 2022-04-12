@@ -1,10 +1,10 @@
 {
-  "id": 204,
+  "id": 203,
   "name": "ERROR_DUPLICATE_PRIVILEGES",
   "description": "Duplicate privileges were specified for the token.",
   "external_url": "https://github.oblokos.com/?art=ERROR_DUPLICATE_PRIVILEGES",
   "image": "https://github.oblokos.com/art/ERROR_DUPLICATE_PRIVILEGES.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/204",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/203",
   "attributes": [
     {
       "trait_type": "artist",

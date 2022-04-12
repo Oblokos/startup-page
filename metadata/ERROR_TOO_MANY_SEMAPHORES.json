@@ -1,10 +1,10 @@
 {
-  "id": 69,
+  "id": 68,
   "name": "ERROR_TOO_MANY_SEMAPHORES",
   "description": "Cannot create another system semaphore.",
   "external_url": "https://github.oblokos.com/?art=ERROR_TOO_MANY_SEMAPHORES",
   "image": "https://github.oblokos.com/art/ERROR_TOO_MANY_SEMAPHORES.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/69",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/68",
   "attributes": [
     {
       "trait_type": "artist",

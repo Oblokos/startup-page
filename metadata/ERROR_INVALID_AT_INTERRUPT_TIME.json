@@ -1,10 +1,10 @@
 {
-  "id": 73,
+  "id": 72,
   "name": "ERROR_INVALID_AT_INTERRUPT_TIME",
   "description": "Cannot request exclusive semaphores at interrupt time.",
   "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_AT_INTERRUPT_TIME",
   "image": "https://github.oblokos.com/art/ERROR_INVALID_AT_INTERRUPT_TIME.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/73",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/72",
   "attributes": [
     {
       "trait_type": "artist",

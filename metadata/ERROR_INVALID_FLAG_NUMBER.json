@@ -1,10 +1,10 @@
 {
-  "id": 138,
+  "id": 137,
   "name": "ERROR_INVALID_FLAG_NUMBER",
   "description": "The flag passed is not correct.",
   "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FLAG_NUMBER",
   "image": "https://github.oblokos.com/art/ERROR_INVALID_FLAG_NUMBER.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/138",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/137",
   "attributes": [
     {
       "trait_type": "artist",

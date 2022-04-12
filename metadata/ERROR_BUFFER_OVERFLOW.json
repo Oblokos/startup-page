@@ -1,10 +1,10 @@
 {
-  "id": 80,
+  "id": 79,
   "name": "ERROR_BUFFER_OVERFLOW",
   "description": "The file name is too long.",
   "external_url": "https://github.oblokos.com/?art=ERROR_BUFFER_OVERFLOW",
   "image": "https://github.oblokos.com/art/ERROR_BUFFER_OVERFLOW.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/80",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/79",
   "attributes": [
     {
       "trait_type": "artist",

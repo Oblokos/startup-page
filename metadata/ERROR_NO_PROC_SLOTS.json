@@ -1,10 +1,10 @@
 {
-  "id": 68,
+  "id": 67,
   "name": "ERROR_NO_PROC_SLOTS",
   "description": "The system cannot start another process at this time.",
   "external_url": "https://github.oblokos.com/?art=ERROR_NO_PROC_SLOTS",
   "image": "https://github.oblokos.com/art/ERROR_NO_PROC_SLOTS.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/68",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/67",
   "attributes": [
     {
       "trait_type": "artist",

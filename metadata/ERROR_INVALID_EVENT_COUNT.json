@@ -1,10 +1,10 @@
 {
-  "id": 117,
+  "id": 116,
   "name": "ERROR_INVALID_EVENT_COUNT",
   "description": "The number of specified semaphore events for DosMuxSemWait is not correct.",
   "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_EVENT_COUNT",
   "image": "https://github.oblokos.com/art/ERROR_INVALID_EVENT_COUNT.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/117",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/116",
   "attributes": [
     {
       "trait_type": "artist",

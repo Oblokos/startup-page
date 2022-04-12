@@ -1,10 +1,10 @@
 {
-  "id": 205,
+  "id": 204,
   "name": "ERROR_NO_RANGES_PROCESSED",
   "description": "No ranges for the specified operation were able to be processed.",
   "external_url": "https://github.oblokos.com/?art=ERROR_NO_RANGES_PROCESSED",
   "image": "https://github.oblokos.com/art/ERROR_NO_RANGES_PROCESSED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/205",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/204",
   "attributes": [
     {
       "trait_type": "artist",

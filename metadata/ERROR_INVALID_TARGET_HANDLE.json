@@ -1,10 +1,10 @@
 {
-  "id": 83,
+  "id": 82,
   "name": "ERROR_INVALID_TARGET_HANDLE",
   "description": "The target internal file identifier is incorrect.",
   "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_TARGET_HANDLE",
   "image": "https://github.oblokos.com/art/ERROR_INVALID_TARGET_HANDLE.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/83",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/82",
   "attributes": [
     {
       "trait_type": "artist",

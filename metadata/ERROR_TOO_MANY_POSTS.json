@@ -1,10 +1,10 @@
 {
-  "id": 191,
+  "id": 190,
   "name": "ERROR_TOO_MANY_POSTS",
   "description": "Too many posts were made to a semaphore.",
   "external_url": "https://github.oblokos.com/?art=ERROR_TOO_MANY_POSTS",
   "image": "https://github.oblokos.com/art/ERROR_TOO_MANY_POSTS.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/191",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/190",
   "attributes": [
     {
       "trait_type": "artist",

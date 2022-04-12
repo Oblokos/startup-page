@@ -1,10 +1,10 @@
 {
-  "id": 127,
+  "id": 126,
   "name": "ERROR_BAD_PATHNAME",
   "description": "The specified path is invalid.",
   "external_url": "https://github.oblokos.com/?art=ERROR_BAD_PATHNAME",
   "image": "https://github.oblokos.com/art/ERROR_BAD_PATHNAME.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/127",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/126",
   "attributes": [
     {
       "trait_type": "artist",

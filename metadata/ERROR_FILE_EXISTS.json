@@ -1,10 +1,10 @@
 {
-  "id": 60,
+  "id": 59,
   "name": "ERROR_FILE_EXISTS",
   "description": "The file exists.",
   "external_url": "https://github.oblokos.com/?art=ERROR_FILE_EXISTS",
   "image": "https://github.oblokos.com/art/ERROR_FILE_EXISTS.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/60",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/59",
   "attributes": [
     {
       "trait_type": "artist",

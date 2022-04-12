@@ -1,10 +1,10 @@
 {
-  "id": 140,
+  "id": 139,
   "name": "ERROR_INVALID_STARTING_CODESEG",
   "description": "The operating system cannot run %1.",
   "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_STARTING_CODESEG",
   "image": "https://github.oblokos.com/art/ERROR_INVALID_STARTING_CODESEG.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/140",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/139",
   "attributes": [
     {
       "trait_type": "artist",

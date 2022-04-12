@@ -1,10 +1,10 @@
 {
-  "id": 187,
+  "id": 186,
   "name": "ERROR_EA_TABLE_FULL",
   "description": "The extended attribute table file is full.",
   "external_url": "https://github.oblokos.com/?art=ERROR_EA_TABLE_FULL",
   "image": "https://github.oblokos.com/art/ERROR_EA_TABLE_FULL.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/187",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/186",
   "attributes": [
     {
       "trait_type": "artist",

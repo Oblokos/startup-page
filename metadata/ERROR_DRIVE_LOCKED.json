@@ -1,10 +1,10 @@
 {
-  "id": 77,
+  "id": 76,
   "name": "ERROR_DRIVE_LOCKED",
   "description": "The disk is in use or locked by another process.",
   "external_url": "https://github.oblokos.com/?art=ERROR_DRIVE_LOCKED",
   "image": "https://github.oblokos.com/art/ERROR_DRIVE_LOCKED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/77",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/76",
   "attributes": [
     {
       "trait_type": "artist",

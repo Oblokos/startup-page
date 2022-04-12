@@ -1,10 +1,10 @@
 {
-  "id": 87,
+  "id": 86,
   "name": "ERROR_CALL_NOT_IMPLEMENTED",
   "description": "This function is not supported on this system.",
   "external_url": "https://github.oblokos.com/?art=ERROR_CALL_NOT_IMPLEMENTED",
   "image": "https://github.oblokos.com/art/ERROR_CALL_NOT_IMPLEMENTED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/87",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/86",
   "attributes": [
     {
       "trait_type": "artist",
