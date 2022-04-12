@@ -1,10 +1,10 @@
 {
-  "id": 1,
-  "name": "ERROR_INVALID_FUNCTION",
-  "description": "Incorrect function.",
-  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FUNCTION",
-  "image": "https://github.oblokos.com/art/ERROR_INVALID_FUNCTION.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1",
+  "id": 15,
+  "name": "ERROR_INVALID_DRIVE",
+  "description": "The system cannot find the drive specified.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_DRIVE",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_DRIVE.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/15",
   "attributes": [
     {
       "trait_type": "artist",
@@ -16,17 +16,17 @@
     },
     {
       "trait_type": "error_code",
-      "value": "1 (0x1)"
+      "value": "15 (0xF)"
     },
     {
       "display_type": "number",
       "trait_type": "frame",
-      "value": "00003"
+      "value": "00935"
     },
     {
       "display_type": "number",
       "trait_type": "index",
-      "value": 0
+      "value": 0.06698564593301436
     },
     {
       "display_type": "number",

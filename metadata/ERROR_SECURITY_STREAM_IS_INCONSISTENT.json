@@ -1,0 +1,37 @@
+{
+  "id": 199,
+  "name": "ERROR_SECURITY_STREAM_IS_INCONSISTENT",
+  "description": "The security stream for the given volume is in an inconsistent state. Please run CHKDSK on the volume.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_SECURITY_STREAM_IS_INCONSISTENT",
+  "image": "https://github.oblokos.com/art/ERROR_SECURITY_STREAM_IS_INCONSISTENT.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/199",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-grid"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "306 (0x132)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "10319"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.9473684210526315
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": "1"
+    }
+  ]
+}

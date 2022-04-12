@@ -1,10 +1,10 @@
 {
-  "id": 1,
-  "name": "ERROR_INVALID_FUNCTION",
-  "description": "Incorrect function.",
-  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FUNCTION",
-  "image": "https://github.oblokos.com/art/ERROR_INVALID_FUNCTION.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1",
+  "id": 28,
+  "name": "ERROR_OUT_OF_PAPER",
+  "description": "The printer is out of paper.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_OUT_OF_PAPER",
+  "image": "https://github.oblokos.com/art/ERROR_OUT_OF_PAPER.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/28",
   "attributes": [
     {
       "trait_type": "artist",
@@ -16,17 +16,17 @@
     },
     {
       "trait_type": "error_code",
-      "value": "1 (0x1)"
+      "value": "28 (0x1C)"
     },
     {
       "display_type": "number",
       "trait_type": "frame",
-      "value": "00003"
+      "value": "01945"
     },
     {
       "display_type": "number",
       "trait_type": "index",
-      "value": 0
+      "value": 0.1291866028708134
     },
     {
       "display_type": "number",

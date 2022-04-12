@@ -1,10 +1,10 @@
 {
-  "id": 1,
-  "name": "ERROR_INVALID_FUNCTION",
-  "description": "Incorrect function.",
-  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FUNCTION",
-  "image": "https://github.oblokos.com/art/ERROR_INVALID_FUNCTION.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1",
+  "id": 46,
+  "name": "ERROR_UNEXP_NET_ERR",
+  "description": "An unexpected network error occurred.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_UNEXP_NET_ERR",
+  "image": "https://github.oblokos.com/art/ERROR_UNEXP_NET_ERR.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/46",
   "attributes": [
     {
       "trait_type": "artist",
@@ -16,17 +16,17 @@
     },
     {
       "trait_type": "error_code",
-      "value": "1 (0x1)"
+      "value": "59 (0x3B)"
     },
     {
       "display_type": "number",
       "trait_type": "frame",
-      "value": "00003"
+      "value": "02227"
     },
     {
       "display_type": "number",
       "trait_type": "index",
-      "value": 0
+      "value": 0.215311004784689
     },
     {
       "display_type": "number",

@@ -1,10 +1,10 @@
 {
-  "id": 1,
-  "name": "ERROR_INVALID_FUNCTION",
-  "description": "Incorrect function.",
-  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FUNCTION",
-  "image": "https://github.oblokos.com/art/ERROR_INVALID_FUNCTION.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1",
+  "id": 108,
+  "name": "ERROR_BUSY_DRIVE",
+  "description": "The system cannot perform a JOIN or SUBST at this time.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_BUSY_DRIVE",
+  "image": "https://github.oblokos.com/art/ERROR_BUSY_DRIVE.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/108",
   "attributes": [
     {
       "trait_type": "artist",
@@ -16,17 +16,17 @@
     },
     {
       "trait_type": "error_code",
-      "value": "1 (0x1)"
+      "value": "142 (0x8E)"
     },
     {
       "display_type": "number",
       "trait_type": "frame",
-      "value": "00003"
+      "value": "06781"
     },
     {
       "display_type": "number",
       "trait_type": "index",
-      "value": 0
+      "value": 0.5119617224880383
     },
     {
       "display_type": "number",

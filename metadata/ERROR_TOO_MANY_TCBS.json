@@ -1,10 +1,10 @@
 {
-  "id": 1,
-  "name": "ERROR_INVALID_FUNCTION",
-  "description": "Incorrect function.",
-  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_FUNCTION",
-  "image": "https://github.oblokos.com/art/ERROR_INVALID_FUNCTION.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1",
+  "id": 121,
+  "name": "ERROR_TOO_MANY_TCBS",
+  "description": "Cannot create another thread.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_TOO_MANY_TCBS",
+  "image": "https://github.oblokos.com/art/ERROR_TOO_MANY_TCBS.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/121",
   "attributes": [
     {
       "trait_type": "artist",
@@ -16,17 +16,17 @@
     },
     {
       "trait_type": "error_code",
-      "value": "1 (0x1)"
+      "value": "155 (0x9B)"
     },
     {
       "display_type": "number",
       "trait_type": "frame",
-      "value": "00003"
+      "value": "06958"
     },
     {
       "display_type": "number",
       "trait_type": "index",
-      "value": 0
+      "value": 0.5741626794258373
     },
     {
       "display_type": "number",

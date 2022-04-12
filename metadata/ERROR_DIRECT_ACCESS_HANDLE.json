@@ -1,0 +1,37 @@
+{
+  "id": 96,
+  "name": "ERROR_DIRECT_ACCESS_HANDLE",
+  "description": "Attempt to use a file handle to an open disk partition for an operation other than raw disk I/O.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_DIRECT_ACCESS_HANDLE",
+  "image": "https://github.oblokos.com/art/ERROR_DIRECT_ACCESS_HANDLE.jpeg",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/96",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-grid"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "130 (0x82)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "05989"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.45454545454545453
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": "1"
+    }
+  ]
+}
