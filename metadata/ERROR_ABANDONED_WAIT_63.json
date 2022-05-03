@@ -1,0 +1,37 @@
+{
+  "id": 414,
+  "name": "ERROR_ABANDONED_WAIT_63",
+  "description": "ERROR_ABANDONED_WAIT_63",
+  "external_url": "https://github.oblokos.com/?art=ERROR_ABANDONED_WAIT_63",
+  "image": "https://github.oblokos.com/art/ERROR_ABANDONED_WAIT_63.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/414",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "736 (0x2E0)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01806"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.82
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 307,
+  "name": "ERROR_INSUFFICIENT_LOGON_INFO",
+  "description": "There is insufficient account information to log you on.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INSUFFICIENT_LOGON_INFO",
+  "image": "https://github.oblokos.com/art/ERROR_INSUFFICIENT_LOGON_INFO.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/307",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "608 (0x260)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01017"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.392
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

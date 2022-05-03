@@ -1,0 +1,37 @@
+{
+  "id": 422,
+  "name": "ERROR_RXACT_COMMITTED",
+  "description": "This success level status indicates that the transaction state already exists for the registry sub-tree, but that a transaction commit was previously aborted. The commit has now been completed.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_RXACT_COMMITTED",
+  "image": "https://github.oblokos.com/art/ERROR_RXACT_COMMITTED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/422",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "744 (0x2E8)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01845"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.852
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 381,
+  "name": "ERROR_IMAGE_NOT_AT_BASE",
+  "description": "{Image Relocated} An image file could not be mapped at the address specified in the image file. Local fixups must be performed on this image.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_IMAGE_NOT_AT_BASE",
+  "image": "https://github.oblokos.com/art/ERROR_IMAGE_NOT_AT_BASE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/381",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "700 (0x2BC)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01560"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.688
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

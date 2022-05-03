@@ -1,0 +1,37 @@
+{
+  "id": 247,
+  "name": "ERROR_TIMER_NOT_CANCELED",
+  "description": "An attempt was made to cancel or set a timer that has an associated APC and the subject thread is not the thread that originally set the timer with an associated APC routine.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_TIMER_NOT_CANCELED",
+  "image": "https://github.oblokos.com/art/ERROR_TIMER_NOT_CANCELED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/247",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "541 (0x21D)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00419"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.152
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

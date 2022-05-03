@@ -1,0 +1,37 @@
+{
+  "id": 395,
+  "name": "ERROR_WAS_UNLOCKED",
+  "description": "{Page Unlocked} The page protection of a locked page was changed to 'No Access' and the page was unlocked from memory and from the process.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_WAS_UNLOCKED",
+  "image": "https://github.oblokos.com/art/ERROR_WAS_UNLOCKED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/395",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "715 (0x2CB)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01689"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.744
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

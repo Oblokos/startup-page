@@ -1,0 +1,37 @@
+{
+  "id": 261,
+  "name": "ERROR_CANT_TERMINATE_SELF",
+  "description": "Indicates that a thread attempted to terminate itself by default (called NtTerminateThread with NULL) and it was the last thread in the current process.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_CANT_TERMINATE_SELF",
+  "image": "https://github.oblokos.com/art/ERROR_CANT_TERMINATE_SELF.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/261",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "555 (0x22B)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00553"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.208
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 226,
+  "name": "ERROR_RESIDENT_FILE_NOT_SUPPORTED",
+  "description": "An operation is not supported on a resident file.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_RESIDENT_FILE_NOT_SUPPORTED",
+  "image": "https://github.oblokos.com/art/ERROR_RESIDENT_FILE_NOT_SUPPORTED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/226",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "334 (0x14E)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00164"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.068
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

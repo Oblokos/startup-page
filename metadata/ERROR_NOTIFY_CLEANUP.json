@@ -1,0 +1,37 @@
+{
+  "id": 423,
+  "name": "ERROR_NOTIFY_CLEANUP",
+  "description": "This indicates that a notify change request has been completed due to closing the handle which made the notify change request.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_NOTIFY_CLEANUP",
+  "image": "https://github.oblokos.com/art/ERROR_NOTIFY_CLEANUP.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/423",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "745 (0x2E9)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01850"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.856
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "id": 208,
+  "id": 209,
   "name": "ERROR_DEVICE_FEATURE_NOT_SUPPORTED",
   "description": "The device does not support the command feature.",
   "external_url": "https://github.oblokos.com/?art=ERROR_DEVICE_FEATURE_NOT_SUPPORTED",
-  "image": "https://github.oblokos.com/art/ERROR_DEVICE_FEATURE_NOT_SUPPORTED.jpeg",
-  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/208",
+  "image": "https://github.oblokos.com/art/ERROR_DEVICE_FEATURE_NOT_SUPPORTED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/209",
   "attributes": [
     {
       "trait_type": "artist",
@@ -12,7 +12,7 @@
     },
     {
       "trait_type": "collection",
-      "value": "data-city-grid"
+      "value": "data-city-layer-1"
     },
     {
       "trait_type": "error_code",
@@ -21,17 +21,17 @@
     {
       "display_type": "number",
       "trait_type": "frame",
-      "value": "10533"
+      "value": "00001"
     },
     {
       "display_type": "number",
       "trait_type": "index",
-      "value": 0.9952153110047847
+      "value": 0
     },
     {
       "display_type": "number",
       "trait_type": "level",
-      "value": "1"
+      "value": 2
     }
   ]
 }

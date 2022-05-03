@@ -1,0 +1,37 @@
+{
+  "id": 385,
+  "name": "ERROR_FT_WRITE_RECOVERY",
+  "description": "{Redundant Write} To satisfy a write request, the NT fault-tolerant file system successfully wrote a redundant copy of the information. This was done because the file system encountered a failure on a member of the fault-tolerant volume, but was not able to reassign the failing area of the device.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_FT_WRITE_RECOVERY",
+  "image": "https://github.oblokos.com/art/ERROR_FT_WRITE_RECOVERY.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/385",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "705 (0x2C1)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01577"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.704
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

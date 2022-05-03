@@ -1,0 +1,37 @@
+{
+  "id": 382,
+  "name": "ERROR_RXACT_STATE_CREATED",
+  "description": "This informational level status indicates that a specified registry sub-tree transaction state did not yet exist and had to be created.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_RXACT_STATE_CREATED",
+  "image": "https://github.oblokos.com/art/ERROR_RXACT_STATE_CREATED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/382",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "701 (0x2BD)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01568"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.692
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

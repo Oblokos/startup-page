@@ -1,0 +1,37 @@
+{
+  "id": 380,
+  "name": "ERROR_THREAD_WAS_SUSPENDED",
+  "description": "{Thread Suspended} A thread termination occurred while the thread was suspended. The thread was resumed, and termination proceeded.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_THREAD_WAS_SUSPENDED",
+  "image": "https://github.oblokos.com/art/ERROR_THREAD_WAS_SUSPENDED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/380",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "699 (0x2BB)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01529"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.684
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

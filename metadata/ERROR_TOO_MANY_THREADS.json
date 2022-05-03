@@ -1,0 +1,37 @@
+{
+  "id": 270,
+  "name": "ERROR_TOO_MANY_THREADS",
+  "description": "Indicates a process has too many threads to perform the requested action. For example, assignment of a primary token may only be performed when a process has zero or one threads.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_TOO_MANY_THREADS",
+  "image": "https://github.oblokos.com/art/ERROR_TOO_MANY_THREADS.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/270",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "565 (0x235)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00658"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.244
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

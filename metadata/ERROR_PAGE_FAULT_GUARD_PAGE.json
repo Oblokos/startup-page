@@ -1,0 +1,37 @@
+{
+  "id": 428,
+  "name": "ERROR_PAGE_FAULT_GUARD_PAGE",
+  "description": "Page fault was a demand zero fault.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_PAGE_FAULT_GUARD_PAGE",
+  "image": "https://github.oblokos.com/art/ERROR_PAGE_FAULT_GUARD_PAGE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/428",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "750 (0x2EE)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01863"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.876
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

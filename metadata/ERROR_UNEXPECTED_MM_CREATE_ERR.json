@@ -1,0 +1,37 @@
+{
+  "id": 262,
+  "name": "ERROR_UNEXPECTED_MM_CREATE_ERR",
+  "description": "If an MM error is returned which is not defined in the standard FsRtl filter, it is converted to one of the following errors which is guaranteed to be in the filter. In this case information is lost, however, the filter correctly handles the exception.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_UNEXPECTED_MM_CREATE_ERR",
+  "image": "https://github.oblokos.com/art/ERROR_UNEXPECTED_MM_CREATE_ERR.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/262",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "556 (0x22C)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00581"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.212
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}

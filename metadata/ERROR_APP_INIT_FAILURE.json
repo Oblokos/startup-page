@@ -1,0 +1,37 @@
+{
+  "id": 278,
+  "name": "ERROR_APP_INIT_FAILURE",
+  "description": "{Application Error} The application was unable to start correctly (0x%lx). Click OK to close the application.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_APP_INIT_FAILURE",
+  "image": "https://github.oblokos.com/art/ERROR_APP_INIT_FAILURE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/278",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-1"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "575 (0x23F)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00741"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.276
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 2
+    }
+  ]
+}
