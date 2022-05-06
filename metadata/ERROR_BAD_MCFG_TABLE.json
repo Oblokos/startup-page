@@ -1,0 +1,37 @@
+{
+  "id": 466,
+  "name": "ERROR_BAD_MCFG_TABLE",
+  "description": "The resources required for this device conflict with the MCFG table.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_BAD_MCFG_TABLE",
+  "image": "https://github.oblokos.com/art/ERROR_BAD_MCFG_TABLE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/466",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "791 (0x317)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00069"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.06542056074766354
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

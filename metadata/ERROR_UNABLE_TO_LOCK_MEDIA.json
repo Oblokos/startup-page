@@ -1,0 +1,37 @@
+{
+  "id": 553,
+  "name": "ERROR_UNABLE_TO_LOCK_MEDIA",
+  "description": "Unable to lock the media eject mechanism.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_UNABLE_TO_LOCK_MEDIA",
+  "image": "https://github.oblokos.com/art/ERROR_UNABLE_TO_LOCK_MEDIA.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/553",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1108 (0x454)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01213"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.8785046728971962
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

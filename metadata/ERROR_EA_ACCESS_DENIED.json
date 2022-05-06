@@ -1,0 +1,37 @@
+{
+  "id": 483,
+  "name": "ERROR_EA_ACCESS_DENIED",
+  "description": "Access to the extended attribute was denied.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_EA_ACCESS_DENIED",
+  "image": "https://github.oblokos.com/art/ERROR_EA_ACCESS_DENIED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/483",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "994 (0x3E2)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00215"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.22429906542056074
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

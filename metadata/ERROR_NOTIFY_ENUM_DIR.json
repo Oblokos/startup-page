@@ -1,0 +1,37 @@
+{
+  "id": 510,
+  "name": "ERROR_NOTIFY_ENUM_DIR",
+  "description": "A notify change request is being completed and the information is not being returned in the caller's buffer. The caller now needs to enumerate the files to find the changes.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_NOTIFY_ENUM_DIR",
+  "image": "https://github.oblokos.com/art/ERROR_NOTIFY_ENUM_DIR.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/510",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1022 (0x3FE)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00614"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.4766355140186916
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

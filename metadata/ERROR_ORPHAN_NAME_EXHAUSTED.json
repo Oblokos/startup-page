@@ -1,0 +1,37 @@
+{
+  "id": 474,
+  "name": "ERROR_ORPHAN_NAME_EXHAUSTED",
+  "description": "Orphaned files exist on the volume but could not be recovered because no more new names could be created in the recovery directory. Files must be moved from the recovery directory.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_ORPHAN_NAME_EXHAUSTED",
+  "image": "https://github.oblokos.com/art/ERROR_ORPHAN_NAME_EXHAUSTED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/474",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "799 (0x31F)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00113"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.14018691588785046
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

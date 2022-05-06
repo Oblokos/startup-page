@@ -1,0 +1,37 @@
+{
+  "id": 503,
+  "name": "ERROR_REGISTRY_CORRUPT",
+  "description": "The registry is corrupted. The structure of one of the files containing registry data is corrupted, or the system's memory image of the file is corrupted, or the file could not be recovered because the alternate copy or log was absent or corrupted.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_REGISTRY_CORRUPT",
+  "image": "https://github.oblokos.com/art/ERROR_REGISTRY_CORRUPT.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/503",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1015 (0x3F7)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00472"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.411214953271028
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

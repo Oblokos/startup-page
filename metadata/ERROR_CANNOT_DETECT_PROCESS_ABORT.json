@@ -1,0 +1,37 @@
+{
+  "id": 541,
+  "name": "ERROR_CANNOT_DETECT_PROCESS_ABORT",
+  "description": "This service runs in the same process as the service control manager. Therefore, the service control manager cannot take action if this service's process terminates unexpectedly.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_CANNOT_DETECT_PROCESS_ABORT",
+  "image": "https://github.oblokos.com/art/ERROR_CANNOT_DETECT_PROCESS_ABORT.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/541",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1081 (0x439)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00910"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.7663551401869159
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}

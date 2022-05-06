@@ -1,0 +1,37 @@
+{
+  "id": 480,
+  "name": "ERROR_INVALID_ACE_CONDITION",
+  "description": "The specified access control entry (ACE) contains an invalid condition.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_ACE_CONDITION",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_ACE_CONDITION.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/480",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-2"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "805 (0x325)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00191"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.19626168224299065
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 3
+    }
+  ]
+}
