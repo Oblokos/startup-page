@@ -1,0 +1,37 @@
+{
+  "id": 742,
+  "name": "ERROR_LUIDS_EXHAUSTED",
+  "description": "No more local user identifiers (LUIDs) are available.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_LUIDS_EXHAUSTED",
+  "image": "https://github.oblokos.com/art/ERROR_LUIDS_EXHAUSTED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/742",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1334 (0x536)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01503"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.7892376681614349
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

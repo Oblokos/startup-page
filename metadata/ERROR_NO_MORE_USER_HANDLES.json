@@ -1,0 +1,37 @@
+{
+  "id": 589,
+  "name": "ERROR_NO_MORE_USER_HANDLES",
+  "description": "The current process has used all of its system allowance of handles for Window Manager objects.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_NO_MORE_USER_HANDLES",
+  "image": "https://github.oblokos.com/art/ERROR_NO_MORE_USER_HANDLES.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/589",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1158 (0x486)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00184"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.1031390134529148
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 698,
+  "name": "ERROR_INCOMPATIBLE_SERVICE_SID_TYPE",
+  "description": "The service start failed since one or more services in the same process have an incompatible service SID type setting. A service with restricted service SID type can only coexist in the same process with other services with a restricted SID type. If the service SID type for this service was just configured, the hosting process must be restarted in order to start this service.\n\nOn Windows Server 2003 and Windows XP, an unrestricted service cannot coexist in the same process with other services. The service with the unrestricted service SID type must be moved to an owned process in order to start this service.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INCOMPATIBLE_SERVICE_SID_TYPE",
+  "image": "https://github.oblokos.com/art/ERROR_INCOMPATIBLE_SERVICE_SID_TYPE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/698",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1290 (0x50A)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00968"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.5919282511210763
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 591,
+  "name": "ERROR_SOURCE_ELEMENT_EMPTY",
+  "description": "The indicated source element has no media.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_SOURCE_ELEMENT_EMPTY",
+  "image": "https://github.oblokos.com/art/ERROR_SOURCE_ELEMENT_EMPTY.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/591",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1160 (0x488)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00254"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.11210762331838565
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

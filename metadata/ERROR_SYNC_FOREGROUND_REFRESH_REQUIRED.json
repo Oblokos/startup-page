@@ -1,0 +1,37 @@
+{
+  "id": 682,
+  "name": "ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED",
+  "description": "The group policy framework should call the extension in the synchronous foreground policy refresh.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED",
+  "image": "https://github.oblokos.com/art/ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/682",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1274 (0x4FA)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00840"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.5201793721973094
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

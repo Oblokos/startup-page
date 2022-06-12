@@ -1,0 +1,37 @@
+{
+  "id": 777,
+  "name": "ERROR_RXACT_COMMIT_FAILURE",
+  "description": "An internal security database corruption has been encountered.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_RXACT_COMMIT_FAILURE",
+  "image": "https://github.oblokos.com/art/ERROR_RXACT_COMMIT_FAILURE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/777",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1370 (0x55A)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "02159"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.9461883408071748
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

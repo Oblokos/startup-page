@@ -1,0 +1,37 @@
+{
+  "id": 781,
+  "name": "ERROR_MEMBERS_PRIMARY_GROUP",
+  "description": "The user cannot be removed from a group because the group is currently the user's primary group.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_MEMBERS_PRIMARY_GROUP",
+  "image": "https://github.oblokos.com/art/ERROR_MEMBERS_PRIMARY_GROUP.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/781",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1374 (0x55E)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "02172"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.9641255605381166
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

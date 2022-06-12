@@ -1,0 +1,37 @@
+{
+  "id": 735,
+  "name": "ERROR_ACCOUNT_RESTRICTION",
+  "description": "Account restrictions are preventing this user from signing in. For example: blank passwords aren't allowed, sign-in times are limited, or a policy restriction has been enforced.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_ACCOUNT_RESTRICTION",
+  "image": "https://github.oblokos.com/art/ERROR_ACCOUNT_RESTRICTION.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/735",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1327 (0x52F)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01434"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.757847533632287
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

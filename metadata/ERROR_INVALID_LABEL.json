@@ -1,0 +1,37 @@
+{
+  "id": 707,
+  "name": "ERROR_INVALID_LABEL",
+  "description": "Indicates a particular Security ID may not be assigned as the label of an object.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_LABEL",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_LABEL.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/707",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1299 (0x513)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01001"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.6322869955156951
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 730,
+  "name": "ERROR_LAST_ADMIN",
+  "description": "This operation is disallowed as it could result in an administration account being disabled, deleted or unable to log on.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_LAST_ADMIN",
+  "image": "https://github.oblokos.com/art/ERROR_LAST_ADMIN.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/730",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1322 (0x52A)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01414"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.7354260089686099
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

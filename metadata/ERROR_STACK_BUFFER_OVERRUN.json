@@ -1,0 +1,37 @@
+{
+  "id": 690,
+  "name": "ERROR_STACK_BUFFER_OVERRUN",
+  "description": "The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_STACK_BUFFER_OVERRUN",
+  "image": "https://github.oblokos.com/art/ERROR_STACK_BUFFER_OVERRUN.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/690",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1282 (0x502)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00888"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.5560538116591929
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 678,
+  "name": "ERROR_SMARTCARD_SUBSYSTEM_FAILURE",
+  "description": "The Kerberos protocol encountered an error while attempting to utilize the smartcard subsystem.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_SMARTCARD_SUBSYSTEM_FAILURE",
+  "image": "https://github.oblokos.com/art/ERROR_SMARTCARD_SUBSYSTEM_FAILURE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/678",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1264 (0x4F0)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00826"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.5022421524663677
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 573,
+  "name": "ERROR_DISK_RESET_FAILED",
+  "description": "While accessing the hard disk, a disk controller reset was needed, but even that failed.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_DISK_RESET_FAILED",
+  "image": "https://github.oblokos.com/art/ERROR_DISK_RESET_FAILED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/573",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1128 (0x468)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00042"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.03139013452914798
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

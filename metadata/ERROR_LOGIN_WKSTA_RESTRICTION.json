@@ -1,0 +1,37 @@
+{
+  "id": 654,
+  "name": "ERROR_LOGIN_WKSTA_RESTRICTION",
+  "description": "The account is not authorized to log in from this station.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_LOGIN_WKSTA_RESTRICTION",
+  "image": "https://github.oblokos.com/art/ERROR_LOGIN_WKSTA_RESTRICTION.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/654",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1240 (0x4D8)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00693"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.39461883408071746
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 650,
+  "name": "ERROR_CONNECTION_ABORTED",
+  "description": "The network connection was aborted by the local system.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_CONNECTION_ABORTED",
+  "image": "https://github.oblokos.com/art/ERROR_CONNECTION_ABORTED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/650",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1236 (0x4D4)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00605"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.37668161434977576
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 628,
+  "name": "ERROR_INVALID_NETNAME",
+  "description": "The format of the specified network name is invalid.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_NETNAME",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_NETNAME.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/628",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1214 (0x4BE)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "00409"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.27802690582959644
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}

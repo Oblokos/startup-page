@@ -1,0 +1,37 @@
+{
+  "id": 744,
+  "name": "ERROR_INVALID_ACL",
+  "description": "The access control list (ACL) structure is invalid.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_ACL",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_ACL.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/744",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "data-city-layer-3"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1336 (0x538)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01527"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.7982062780269058
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 4
+    }
+  ]
+}
