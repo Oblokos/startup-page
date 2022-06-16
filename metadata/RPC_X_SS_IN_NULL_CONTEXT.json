@@ -1,0 +1,37 @@
+{
+  "id": 1013,
+  "name": "RPC_X_SS_IN_NULL_CONTEXT",
+  "description": "A null context handle was passed from the client to the host during a remote procedure call.",
+  "external_url": "https://github.oblokos.com/?art=RPC_X_SS_IN_NULL_CONTEXT",
+  "image": "https://github.oblokos.com/art/RPC_X_SS_IN_NULL_CONTEXT.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1013",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "NFT-NYC-2022"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1775 (0x6EF)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "06180"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.7466666666666667
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

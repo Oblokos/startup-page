@@ -1,0 +1,37 @@
+{
+  "id": 933,
+  "name": "ERROR_PATCH_NO_SEQUENCE",
+  "description": "No valid sequence could be found for the set of updates.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_PATCH_NO_SEQUENCE",
+  "image": "https://github.oblokos.com/art/ERROR_PATCH_NO_SEQUENCE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/933",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "NFT-NYC-2022"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1648 (0x670)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "03464"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.48
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

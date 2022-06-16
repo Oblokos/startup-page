@@ -1,0 +1,37 @@
+{
+  "id": 856,
+  "name": "ERROR_INVALID_SHOWWIN_COMMAND",
+  "description": "Cannot show or remove the window in the way specified.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_SHOWWIN_COMMAND",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_SHOWWIN_COMMAND.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/856",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "NFT-NYC-2022"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "1449 (0x5A9)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "01532"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.22333333333333333
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}
