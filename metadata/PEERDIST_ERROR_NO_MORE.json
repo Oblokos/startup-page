@@ -1,0 +1,37 @@
+{
+  "id": 1174,
+  "name": "PEERDIST_ERROR_NO_MORE",
+  "description": "No more data is available or required.",
+  "external_url": "https://github.oblokos.com/?art=PEERDIST_ERROR_NO_MORE",
+  "image": "https://github.oblokos.com/art/PEERDIST_ERROR_NO_MORE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1174",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "4053 (0xFD5)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "08765"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.17
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

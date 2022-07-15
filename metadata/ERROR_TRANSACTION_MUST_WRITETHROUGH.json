@@ -1,0 +1,37 @@
+{
+  "id": 1549,
+  "name": "ERROR_TRANSACTION_MUST_WRITETHROUGH",
+  "description": "The transaction cannot be enlisted on with the specified EnlistmentMask, because the transaction has already completed the PrePrepare phase. In order to ensure correctness, the ResourceManager must switch to a write- through mode and cease caching data within this transaction. Enlisting for only subsequent transaction phases may still succeed.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_TRANSACTION_MUST_WRITETHROUGH",
+  "image": "https://github.oblokos.com/art/ERROR_TRANSACTION_MUST_WRITETHROUGH.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1549",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "6729 (0x1A49)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "10994"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.92
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

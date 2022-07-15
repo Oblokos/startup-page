@@ -1,0 +1,37 @@
+{
+  "id": 1551,
+  "name": "ERROR_HEURISTIC_DAMAGE_POSSIBLE",
+  "description": "The attempt to commit the Transaction completed, but it is possible that some portion of the transaction tree did not commit successfully due to heuristics. Therefore it is possible that some data modified in the transaction may not have committed, resulting in transactional inconsistency. If possible, check the consistency of the associated data.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_HEURISTIC_DAMAGE_POSSIBLE",
+  "image": "https://github.oblokos.com/art/ERROR_HEURISTIC_DAMAGE_POSSIBLE.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1551",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "6731 (0x1A4B)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "28813"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.924
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

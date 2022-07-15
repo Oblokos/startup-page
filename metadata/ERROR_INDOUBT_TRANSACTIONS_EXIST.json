@@ -1,0 +1,37 @@
+{
+  "id": 1577,
+  "name": "ERROR_INDOUBT_TRANSACTIONS_EXIST",
+  "description": "The operation would leave a transactional resource manager in an inconsistent state and is therefore not allowed.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INDOUBT_TRANSACTIONS_EXIST",
+  "image": "https://github.oblokos.com/art/ERROR_INDOUBT_TRANSACTIONS_EXIST.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1577",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "6827 (0x1AAB)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "25618"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.976
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

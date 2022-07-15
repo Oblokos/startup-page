@@ -1,0 +1,37 @@
+{
+  "id": 1160,
+  "name": "ERROR_INVALID_PRINTER_DRIVER_MANIFEST",
+  "description": "The printer driver does not contain a valid manifest, or contains too many manifests.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_INVALID_PRINTER_DRIVER_MANIFEST",
+  "image": "https://github.oblokos.com/art/ERROR_INVALID_PRINTER_DRIVER_MANIFEST.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1160",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "3021 (0xBCD)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "30586"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.142
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

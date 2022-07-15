@@ -1,0 +1,37 @@
+{
+  "id": 1515,
+  "name": "ERROR_LOG_PINNED",
+  "description": "Log space cannot be reclaimed because the log is pinned.",
+  "external_url": "https://github.oblokos.com/?art=ERROR_LOG_PINNED",
+  "image": "https://github.oblokos.com/art/ERROR_LOG_PINNED.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1515",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "6644 (0x19F4)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "07740"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.852
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}

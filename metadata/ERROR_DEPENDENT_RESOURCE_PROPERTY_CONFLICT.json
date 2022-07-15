@@ -1,0 +1,37 @@
+{
+  "id": 1397,
+  "name": "ERROR_DEPENDENT_RESOURCE_PROPERTY_CONFLICT",
+  "description": "One or more property values for this resource are in conflict with one or more property values associated with its dependent resource(s).",
+  "external_url": "https://github.oblokos.com/?art=ERROR_DEPENDENT_RESOURCE_PROPERTY_CONFLICT",
+  "image": "https://github.oblokos.com/art/ERROR_DEPENDENT_RESOURCE_PROPERTY_CONFLICT.png",
+  "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/1397",
+  "attributes": [
+    {
+      "trait_type": "artist",
+      "value": "0x5Ae65e30834f61B26A25D9F9F0847c3da11dD391"
+    },
+    {
+      "trait_type": "collection",
+      "value": "Metaverse First Contact"
+    },
+    {
+      "trait_type": "error_code",
+      "value": "5924 (0x1724)"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "frame",
+      "value": "30507"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "index",
+      "value": 0.616
+    },
+    {
+      "display_type": "number",
+      "trait_type": "level",
+      "value": 0
+    }
+  ]
+}
