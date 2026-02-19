@@ -3,7 +3,7 @@
   "name": "ERROR_CANCEL_VIOLATION",
   "description": "A lock request was not outstanding for the supplied cancel region.",
   "external_url": "https://github.oblokos.com/?art=ERROR_CANCEL_VIOLATION",
-  "image": "https://github.oblokos.com/art/ERROR_CANCEL_VIOLATION.jpeg",
+  "image": "https://github.oblokos.com/art/ERROR_CANCEL_VIOLATION.png",
   "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/132",
   "attributes": [
     {
