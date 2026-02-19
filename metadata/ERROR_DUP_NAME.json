@@ -3,7 +3,7 @@
   "name": "ERROR_DUP_NAME",
   "description": "You were not connected because a duplicate name exists on the network. If joining a domain, go to System in Control Panel to change the computer name and try again. If joining a workgroup, choose another workgroup name.",
   "external_url": "https://github.oblokos.com/?art=ERROR_DUP_NAME",
-  "image": "https://github.oblokos.com/art/ERROR_DUP_NAME.jpeg",
+  "image": "https://github.oblokos.com/art/ERROR_DUP_NAME.png",
   "opensea_url": "https://opensea.io/assets/matic/0x252f9390feb63aeb00042dd5c4ff84af33f42b85/39",
   "attributes": [
     {
