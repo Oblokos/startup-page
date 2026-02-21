@@ -120,6 +120,7 @@
             margin: 0;
             line-height: 1.05;
             font-size: clamp(1.9rem, 3.4vw, 3.4rem);
+            overflow-wrap: anywhere;
         }
 
         .artifact-description {
@@ -649,6 +650,17 @@
                 el.textContent.classList.remove("d-none");
             }
 
+            function setArtifactTitle(value) {
+                const titleText = value || "Untitled artifact";
+
+                if (titleText.indexOf("_") >= 0) {
+                    el.title.innerHTML = escapeHtml(titleText).replace(/_/g, "_<wbr>");
+                    return;
+                }
+
+                el.title.textContent = titleText;
+            }
+
             function setOpenImageLink(href) {
                 if (href) {
                     el.openImageButton.href = href;
@@ -784,7 +796,7 @@
                 state.metadata = data;
                 revealTextContent();
 
-                el.title.textContent = data.name || state.artId || "Untitled artifact";
+                setArtifactTitle(data.name || state.artId || "Untitled artifact");
                 el.description.textContent = data.description || "No description provided.";
                 el.dataPre.textContent = JSON.stringify(data, null, 2);
 
@@ -873,7 +885,7 @@
 
             if (!state.artId) {
                 revealTextContent();
-                el.title.textContent = "No artifact selected";
+                setArtifactTitle("No artifact selected");
                 el.description.textContent = "Add ?art=<ART_ID> to the URL to load metadata.";
                 el.dataPre.textContent = "{}";
                 showImageError("No image available.");
@@ -901,7 +913,7 @@
                 })
                 .catch(function (err) {
                     revealTextContent();
-                    el.title.textContent = "Artifact unavailable";
+                    setArtifactTitle("Artifact unavailable");
                     el.description.textContent = "Metadata could not be loaded for this ART id.";
                     el.dataPre.textContent = "{}";
                     showImageError("Unable to load image.");
