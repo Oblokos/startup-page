@@ -2,143 +2,916 @@
 <html lang="en">
 
 <head>
-    <title>Oblokos - Data City Grid</title>
+    <title>Oblokos - ART</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
-    <link rel="icon" href="images/oblk-logo.png">
-</head>
+    <meta name="description" content="Oblokos NFT artifact dossier" />
+    <link rel="icon" href="images/oblk-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 
-<body>
-    <div id="loader"></div>
     <style>
-        /* For best practice, move CSS below to an external CSS file. */
-        @keyframes fadeinall {
+        :root {
+            --bg-0: #0d1016;
+            --bg-1: #111722;
+            --bg-2: #171f2c;
+            --panel: rgba(16, 22, 34, 0.8);
+            --line: rgba(255, 255, 255, 0.14);
+            --text: #edf2ff;
+            --muted: #9aa7bf;
+            --accent: #42e8ff;
+            --accent-soft: rgba(66, 232, 255, 0.28);
+            --accent-2: #d35dff;
+            --danger-soft: rgba(220, 53, 69, 0.2);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            margin: 0;
+            color: var(--text);
+            font-family: "Space Grotesk", system-ui, sans-serif;
+            background:
+                radial-gradient(1200px 700px at 10% -10%, rgba(66, 232, 255, 0.08), transparent 60%),
+                radial-gradient(900px 500px at 100% 0%, rgba(211, 93, 255, 0.08), transparent 55%),
+                linear-gradient(180deg, var(--bg-1), var(--bg-0) 60%, #0a0d12);
+        }
+
+        .noise-layer {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.05;
+            background-image: repeating-linear-gradient(180deg,
+                    rgba(255, 255, 255, 0.5) 0px,
+                    rgba(255, 255, 255, 0.5) 1px,
+                    transparent 2px,
+                    transparent 4px);
+            mix-blend-mode: soft-light;
+            animation: scanDrift 12s linear infinite;
+        }
+
+        .page-wrap {
+            position: relative;
+            z-index: 1;
+        }
+
+        .topbar {
+            border-bottom: 1px solid var(--line);
+            background: rgba(9, 13, 20, 0.78);
+            backdrop-filter: blur(8px);
+        }
+
+        .topbar-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            min-height: 72px;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .brand img {
+            height: 42px;
+            width: auto;
+            display: block;
+        }
+
+        .art-chip {
+            border: 1px solid var(--accent-soft);
+            color: #c8f7ff;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            white-space: nowrap;
+            background: rgba(8, 20, 27, 0.7);
+        }
+
+        .hero {
+            padding-bottom: 24px;
+        }
+
+        .micro-label {
+            margin-bottom: 10px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            font-size: 0.72rem;
+        }
+
+        .artifact-title {
+            margin: 0;
+            line-height: 1.05;
+            font-size: clamp(1.9rem, 3.4vw, 3.4rem);
+        }
+
+        .artifact-description {
+            margin-top: 16px;
+            margin-bottom: 0;
+            color: #d0d8e8;
+            font-size: clamp(1rem, 1.3vw, 1.15rem);
+            line-height: 1.6;
+            max-width: 58ch;
+        }
+
+        .text-skeleton {
+            margin-top: 10px;
+        }
+
+        .skeleton {
+            border-radius: 10px;
+            background: linear-gradient(100deg,
+                    rgba(255, 255, 255, 0.06) 20%,
+                    rgba(255, 255, 255, 0.14) 38%,
+                    rgba(255, 255, 255, 0.06) 56%);
+            background-size: 240% 100%;
+        }
+
+        .shimmer {
+            animation: shimmer 1.4s linear infinite;
+        }
+
+        .skeleton-title {
+            height: 52px;
+            max-width: 80%;
+            margin-bottom: 14px;
+        }
+
+        .skeleton-line {
+            height: 14px;
+            margin-bottom: 10px;
+            max-width: 95%;
+        }
+
+        .skeleton-line.short {
+            max-width: 72%;
+        }
+
+        .containment-card {
+            position: relative;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            background:
+                linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.01)),
+                var(--panel);
+            padding: 14px;
+            box-shadow:
+                inset 0 0 0 1px rgba(66, 232, 255, 0.12),
+                0 16px 50px rgba(0, 0, 0, 0.38),
+                0 0 32px rgba(66, 232, 255, 0.08);
+        }
+
+        .image-skeleton {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .artifact-image {
+            width: 100%;
+            height: auto;
+            max-height: 74vh;
+            object-fit: contain;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            background: #0a0f17;
+            display: block;
+        }
+
+        .image-error {
+            margin: 0;
+            margin-top: 12px;
+            color: #ffb6c0;
+            font-size: 0.95rem;
+            border: 1px solid var(--danger-soft);
+            border-radius: 8px;
+            padding: 8px 10px;
+            background: rgba(70, 15, 26, 0.35);
+        }
+
+        .facts-row {
+            margin-top: 18px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .fact-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 10px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            background: rgba(255, 255, 255, 0.03);
+            min-height: 30px;
+        }
+
+        .fact-label {
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            font-size: 0.66rem;
+            color: var(--muted);
+        }
+
+        .fact-value {
+            font-size: 0.84rem;
+            color: #e6efff;
+        }
+
+        .actions {
+            margin-top: 28px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .action-btn {
+            border-radius: 10px;
+        }
+
+        #goto-button {
+            background: linear-gradient(90deg, rgba(66, 232, 255, 0.2), rgba(211, 93, 255, 0.2));
+            border: 1px solid var(--accent-soft);
+            color: #eafcff;
+            font-weight: 500;
+        }
+
+        #goto-button:hover,
+        #goto-button:focus-visible {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 0.2rem rgba(66, 232, 255, 0.2);
+        }
+
+        #open-image-button {
+            border-color: rgba(66, 232, 255, 0.45);
+            color: #b7f7ff;
+        }
+
+        #open-image-button:hover,
+        #open-image-button:focus-visible {
+            border-color: var(--accent);
+            color: #eaffff;
+            box-shadow: 0 0 0 0.2rem rgba(66, 232, 255, 0.18);
+        }
+
+        .source-line {
+            margin-top: 18px;
+            margin-bottom: 0;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            font-size: 0.68rem;
+        }
+
+        .source-line code {
+            color: #b7d6ff;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 6px;
+            padding: 2px 6px;
+            letter-spacing: 0.05em;
+        }
+
+        .meta-accordion .accordion-item {
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            overflow: hidden;
+            background: rgba(11, 15, 23, 0.55);
+        }
+
+        .meta-accordion .accordion-button {
+            background: rgba(255, 255, 255, 0.02);
+            color: #e5edff;
+            font-weight: 500;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-size: 0.78rem;
+            box-shadow: none;
+        }
+
+        .meta-accordion .accordion-button:not(.collapsed) {
+            color: #d9fbff;
+            background: rgba(66, 232, 255, 0.08);
+        }
+
+        .meta-accordion .accordion-button:focus {
+            box-shadow: 0 0 0 0.2rem rgba(66, 232, 255, 0.2);
+        }
+
+        .meta-accordion .accordion-body {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(7, 10, 16, 0.66);
+        }
+
+        #art-data {
+            margin: 0;
+            min-height: 140px;
+            max-height: 42vh;
+            overflow: auto;
+            color: #d2def2;
+            font-size: 0.82rem;
+            line-height: 1.5;
+            background: rgba(4, 7, 12, 0.72);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 10px;
+            padding: 14px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+        }
+
+        .footer {
+            border-top: 1px solid var(--line);
+            background: rgba(6, 9, 14, 0.9);
+            padding: 18px 0 24px;
+        }
+
+        .footer p,
+        .footer a {
+            color: #c9d4ea;
+            font-size: 0.95rem;
+            text-decoration: none;
+        }
+
+        .footer a:hover,
+        .footer a:focus-visible {
+            color: #f2fdff;
+            text-decoration: underline;
+        }
+
+        #page-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 1500;
+            display: grid;
+            place-items: center;
+            background: rgba(6, 9, 14, 0.98);
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+        }
+
+        #page-loader.is-hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader-shell {
+            width: min(380px, 86vw);
+        }
+
+        .loader-brand {
+            text-transform: uppercase;
+            letter-spacing: 0.22em;
+            font-size: 0.75rem;
+            color: #9eb3d8;
+            margin-bottom: 10px;
+        }
+
+        .loader-bar-wrap {
+            height: 2px;
+            background: rgba(255, 255, 255, 0.14);
+            border-radius: 999px;
+            overflow: hidden;
+            margin-bottom: 14px;
+        }
+
+        .loader-bar {
+            width: 45%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            animation: loaderSweep 1.2s ease-in-out infinite;
+        }
+
+        .loader-caption {
+            color: #98a7c0;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        @keyframes shimmer {
+            from {
+                background-position: 200% 0;
+            }
+
+            to {
+                background-position: -40% 0;
+            }
+        }
+
+        @keyframes loaderSweep {
             0% {
-                opacity: 1;
-            }
-
-            97% {
-                opacity: 0;
-            }
-
-            98% {
-                opacity: 0;
-                -webkit-transform: translateY(0);
-                transform: translateY(0);
-            }
-
-            99% {
-                opacity: 0;
-                -webkit-transform: translateY(-100%);
-                transform: translateY(-100%);
+                transform: translateX(-120%);
             }
 
             100% {
-                opacity: 0;
-                z-index: -1;
+                transform: translateX(260%);
             }
         }
 
-        #loader {
-            opacity: 1;
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            -webkit-transform: translateY(0);
-            -ms-transform: translateY(0);
-            transform: translateY(0);
-            background-color: #fff;
-            z-index: 999;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-            -webkit-animation: fadeinall 1s normal both;
-            animation: fadeinall 1s normal both;
-            -webkit-animation-delay: 0.3s;
-            animation-delay: 0.3s;
+        @keyframes scanDrift {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(18px);
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .containment-card {
+                padding: 10px;
+            }
+
+            .artifact-image {
+                max-height: 56vh;
+            }
+
+            .actions .btn {
+                width: 100%;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .noise-layer,
+            .shimmer,
+            .loader-bar {
+                animation: none !important;
+            }
+
+            #page-loader {
+                transition: none;
+            }
         }
     </style>
+</head>
 
-    <div class="d-flex flex-column min-vh-100">
-        <header class="text-center" style="background-color:white;">
-            <img src="images/oblk-logo.png" />
+<body>
+    <div id="page-loader" aria-hidden="true">
+        <div class="loader-shell">
+            <div class="loader-brand">Oblokos Artifact Dossier</div>
+            <div class="loader-bar-wrap">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="loader-caption">Loading metadata and image</div>
+        </div>
+    </div>
+
+    <div class="noise-layer" aria-hidden="true"></div>
+
+    <div class="page-wrap d-flex flex-column min-vh-100">
+        <header class="topbar sticky-top">
+            <div class="container-xxl topbar-inner">
+                <a class="brand" href="https://github.oblokos.com/" aria-label="Go to Oblokos home">
+                    <img src="images/oblk-logo.png" alt="Oblokos logo" />
+                </a>
+                <span id="art-chip" class="art-chip" aria-label="Current art id">ART: --</span>
+            </div>
         </header>
-        <div class="py-4" style="background-color:#282c34">
-            <div class="my-3 flex-grow-1 container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1 id="art-title" class="display-4 text-white">name</h1>
-                        <p id="art-description" class="text-white">description</p>
+
+        <main class="flex-grow-1">
+            <section class="hero">
+                <div class="container-xxl py-4 py-lg-5">
+                    <div id="error-container" class="mb-3" aria-live="polite"></div>
+
+                    <div class="row g-4 g-lg-5 align-items-start">
+                        <div class="col-lg-7 order-1 order-lg-2">
+                            <div class="containment-card">
+                                <div id="image-skeleton" class="image-skeleton skeleton shimmer" aria-hidden="true"></div>
+                                <img id="art" src="" alt="Artwork loading" class="artifact-image d-none" />
+                                <p id="image-error" class="image-error d-none" role="alert"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 order-2 order-lg-1">
+                            <p class="micro-label">Artifact</p>
+
+                            <div id="text-skeleton" class="text-skeleton" aria-hidden="true">
+                                <div class="skeleton skeleton-title shimmer"></div>
+                                <div class="skeleton skeleton-line shimmer"></div>
+                                <div class="skeleton skeleton-line shimmer short"></div>
+                            </div>
+
+                            <div id="text-content" class="d-none">
+                                <h1 id="art-title" class="artifact-title">Loading artifact...</h1>
+                                <p id="art-description" class="artifact-description">Awaiting metadata dossier...</p>
+                            </div>
+
+                            <div id="facts-row" class="facts-row d-none" aria-live="polite"></div>
+
+                            <div class="actions">
+                                <button id="goto-button" type="button" class="btn action-btn" disabled aria-label="Go to OpenSea page">
+                                    Go to opensea.io
+                                </button>
+                                <a id="open-image-button" class="btn btn-outline-info action-btn disabled" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Open artwork image in a new tab" aria-disabled="true"
+                                    tabindex="-1">Open image</a>
+                                <a class="btn btn-outline-light btn-sm action-btn-secondary"
+                                    href="https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462" target="_blank"
+                                    rel="noopener noreferrer" aria-label="Back to Teleport Lab in Spatial">
+                                    Back to Teleport Lab
+                                </a>
+                            </div>
+
+                            <p class="source-line">
+                                Source <code id="metadata-source">metadata/?.json</code>
+                            </p>
+                        </div>
                     </div>
+
+                    <div class="row mt-4 mt-lg-5">
+                        <div class="col-12">
+                            <div class="accordion meta-accordion" id="metadata-accordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="metadata-heading">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#metadata-panel" aria-expanded="false" aria-controls="metadata-panel">
+                                            Metadata
+                                        </button>
+                                    </h2>
+                                    <div id="metadata-panel" class="accordion-collapse collapse" aria-labelledby="metadata-heading"
+                                        data-bs-parent="#metadata-accordion">
+                                        <div class="accordion-body">
+                                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                                <button id="copy-json" type="button" class="btn btn-sm btn-outline-light" disabled
+                                                    aria-label="Copy raw metadata JSON">
+                                                    Copy JSON
+                                                </button>
+                                                <button id="download-json" type="button" class="btn btn-sm btn-outline-light" disabled
+                                                    aria-label="Download raw metadata JSON file">
+                                                    Download JSON
+                                                </button>
+                                            </div>
+                                            <pre id="art-data">{}</pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <img id="art" src="" alt="loading" style="width: 100%;" />
-                    </div>
-                    <div class="col-sm-12 text-white">
-                        <h1 id="art-title" class="display-6 text-white">Metadata</h1>
-                        <pre id="art-data">
-                        </pre>
-                    </div>
-                </div>
-                <div>
-                    <div class="col-sm-12">
-                        <button id="goto-button" type="button" class="btn btn-primary">Go to opensea.io</button>
-                    </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container-xxl">
+                <p class="mb-2">
+                    Visit the virtual gallery at
+                    <a href="https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462" target="_blank"
+                        rel="noopener noreferrer">Teleport Lab at spatial.io</a>
+                </p>
+                <div class="social-links d-flex flex-wrap gap-3">
+                    <a href="https://www.instagram.com/art.oblokos" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.facebook.com/art.oblokos" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://twitter.com/oblokos" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://github.com/oblokos" target="_blank" rel="noopener noreferrer">Github</a>
                 </div>
             </div>
-        </div>
-        <footer style="padding-bottom: 16px;padding-top: 16px; padding-left: 16px;">
-            <p>
-                Visit the virtual gallery at <a
-                    href="https://spatial.io/s/Oblokos-Data-City-Large-6254fcab1113e700013e58b7?share=7932799827482797324">spatia.io</a>
-            </p>
-            <a href="https://www.instagram.com/art.oblokos">Instagram</a>
-            <a href="https://www.facebook.com/art.oblokos">Facebook</a>
-            <a href="https://twitter.com/oblokos">Twitter</a>
-            <a href="https://github.com/oblokos">Github</a>
-            <p>
-                Our website <a href="https://www.oblokos.com">www.oblokos.com</a> is under construction, we will be
-                online soon.
-            </p>
         </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+        (function () {
+            const BASE_SITE_URL = "https://github.oblokos.com/";
+            const TELEPORT_URL = "https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462";
+            const params = new URLSearchParams(window.location.search);
+            const artId = (params.get("art") || "").trim();
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        crossorigin="anonymous"></script>
+            const state = {
+                artId: artId,
+                metadata: null
+            };
 
-    <script type="text/javascript">
-        window.onload = function () {
-            setTimeout(function () {
-                document.getElementById("loader").remove();
-            }, 1000);
-        };
-    </script>
-    <script type="text/javascript">
-        const params = new Proxy(new URLSearchParams(window.location.search), {
-            get: (searchParams, prop) => searchParams.get(prop),
-        });
+            const el = {
+                loader: document.getElementById("page-loader"),
+                artChip: document.getElementById("art-chip"),
+                metadataSource: document.getElementById("metadata-source"),
+                errorContainer: document.getElementById("error-container"),
+                textSkeleton: document.getElementById("text-skeleton"),
+                textContent: document.getElementById("text-content"),
+                title: document.getElementById("art-title"),
+                description: document.getElementById("art-description"),
+                factsRow: document.getElementById("facts-row"),
+                image: document.getElementById("art"),
+                imageSkeleton: document.getElementById("image-skeleton"),
+                imageError: document.getElementById("image-error"),
+                dataPre: document.getElementById("art-data"),
+                gotoButton: document.getElementById("goto-button"),
+                openImageButton: document.getElementById("open-image-button"),
+                copyJsonButton: document.getElementById("copy-json"),
+                downloadJsonButton: document.getElementById("download-json")
+            };
 
-        var hasLoad = false;
+            function escapeHtml(value) {
+                return String(value).replace(/[&<>"']/g, function (ch) {
+                    const map = {
+                        "&": "&amp;",
+                        "<": "&lt;",
+                        ">": "&gt;",
+                        "\"": "&quot;",
+                        "'": "&#39;"
+                    };
+                    return map[ch] || ch;
+                });
+            }
 
-        $(document).ready(function (e) {
-            const art = params.art;
-            $.getJSON("metadata/" + art + ".json", function (data) {
-                $("#art").attr("src", data.image);
-                $("#art-title").text(data.name);
-                $("#art-description").text(data.description);
-                $("#art-data").text(JSON.stringify(data, undefined, 2))
-                $("#goto-button").click(function () {
-                    window.location.href = data.opensea_url;
-                })
+            function hideLoader() {
+                if (!el.loader) return;
+                el.loader.classList.add("is-hidden");
+                window.setTimeout(function () {
+                    if (el.loader && el.loader.parentNode) {
+                        el.loader.parentNode.removeChild(el.loader);
+                    }
+                }, 450);
+            }
+
+            function revealTextContent() {
+                el.textSkeleton.classList.add("d-none");
+                el.textContent.classList.remove("d-none");
+            }
+
+            function setOpenImageLink(href) {
+                if (href) {
+                    el.openImageButton.href = href;
+                    el.openImageButton.classList.remove("disabled");
+                    el.openImageButton.removeAttribute("aria-disabled");
+                    el.openImageButton.removeAttribute("tabindex");
+                } else {
+                    el.openImageButton.removeAttribute("href");
+                    el.openImageButton.classList.add("disabled");
+                    el.openImageButton.setAttribute("aria-disabled", "true");
+                    el.openImageButton.setAttribute("tabindex", "-1");
+                }
+            }
+
+            function showImageError(message) {
+                el.imageSkeleton.classList.add("d-none");
+                el.image.classList.add("d-none");
+                el.imageError.textContent = message;
+                el.imageError.classList.remove("d-none");
+            }
+
+            function loadImage(src, altText) {
+                if (!src) {
+                    showImageError("Image URL missing in metadata.");
+                    return;
+                }
+
+                el.imageError.classList.add("d-none");
+                el.imageSkeleton.classList.remove("d-none");
+                el.image.classList.add("d-none");
+
+                el.image.onload = function () {
+                    el.imageSkeleton.classList.add("d-none");
+                    el.image.classList.remove("d-none");
+                };
+
+                el.image.onerror = function () {
+                    showImageError("Image failed to load.");
+                };
+
+                el.image.alt = altText || "Artwork image";
+                el.image.src = src;
+            }
+
+            function showError(reason) {
+                const safeArt = escapeHtml(state.artId || "UNKNOWN");
+                const safeReason = escapeHtml(reason || "Unknown error");
+                el.errorContainer.innerHTML =
+                    '<div class="alert alert-danger mb-0" role="alert">' +
+                    '<div class="fw-semibold">Unable to load artifact dossier</div>' +
+                    '<div class="small mt-1">ART: <code>' + safeArt + "</code></div>" +
+                    '<div class="small mt-1">' + safeReason + "</div>" +
+                    '<div class="small mt-2">Try returning to <a href="' + BASE_SITE_URL +
+                    '" target="_blank" rel="noopener noreferrer" class="alert-link">github.oblokos.com</a>.</div>' +
+                    "</div>";
+            }
+
+            function shortenMiddle(value, start, end) {
+                if (value.length <= start + end + 3) return value;
+                return value.slice(0, start) + "..." + value.slice(-end);
+            }
+
+            function safeHost(urlValue) {
+                try {
+                    return new URL(urlValue).host;
+                } catch (err) {
+                    return "";
+                }
+            }
+
+            function appendFact(label, value) {
+                const item = document.createElement("div");
+                item.className = "fact-pill";
+
+                const key = document.createElement("span");
+                key.className = "fact-label";
+                key.textContent = label;
+
+                const val = document.createElement("span");
+                val.className = "fact-value";
+                val.textContent = value;
+
+                item.appendChild(key);
+                item.appendChild(val);
+                el.factsRow.appendChild(item);
+            }
+
+            function renderFacts(data) {
+                el.factsRow.innerHTML = "";
+
+                const chain = data.chain || data.network || data.blockchain;
+                const contract = data.contract_address || data.contract || (data.asset_contract && data.asset_contract.address);
+                const tokenId = data.token_id || data.tokenId || data.edition || data.id;
+                const attributesCount = Array.isArray(data.attributes) ? data.attributes.length :
+                    (Array.isArray(data.traits) ? data.traits.length : null);
+                const imageHost = safeHost(data.image);
+
+                let count = 0;
+
+                if (chain) {
+                    appendFact("CHAIN", String(chain));
+                    count++;
+                }
+
+                if (contract) {
+                    appendFact("CONTRACT", shortenMiddle(String(contract), 8, 6));
+                    count++;
+                }
+
+                if (tokenId !== undefined && tokenId !== null && String(tokenId) !== "") {
+                    appendFact("TOKEN ID", String(tokenId));
+                    count++;
+                }
+
+                if (attributesCount !== null) {
+                    appendFact("ATTRIBUTES", String(attributesCount));
+                    count++;
+                }
+
+                if (imageHost) {
+                    appendFact("IMAGE HOST", imageHost);
+                    count++;
+                }
+
+                if (count > 0) {
+                    el.factsRow.classList.remove("d-none");
+                } else {
+                    el.factsRow.classList.add("d-none");
+                }
+            }
+
+            function renderMetadata(data) {
+                state.metadata = data;
+                revealTextContent();
+
+                el.title.textContent = data.name || state.artId || "Untitled artifact";
+                el.description.textContent = data.description || "No description provided.";
+                el.dataPre.textContent = JSON.stringify(data, null, 2);
+
+                if (data.opensea_url) {
+                    el.gotoButton.disabled = false;
+                    el.gotoButton.onclick = function () {
+                        window.location.href = data.opensea_url;
+                    };
+                } else {
+                    el.gotoButton.disabled = true;
+                }
+
+                setOpenImageLink(data.image || "");
+                loadImage(data.image, data.name || "Artwork image");
+                renderFacts(data);
+
+                el.copyJsonButton.disabled = false;
+                el.downloadJsonButton.disabled = false;
+            }
+
+            async function copyMetadata() {
+                if (!state.metadata) return;
+                const json = JSON.stringify(state.metadata, null, 2);
+
+                try {
+                    await navigator.clipboard.writeText(json);
+                    flashButton(el.copyJsonButton, "Copied");
+                } catch (err) {
+                    const temp = document.createElement("textarea");
+                    temp.value = json;
+                    temp.style.position = "fixed";
+                    temp.style.opacity = "0";
+                    document.body.appendChild(temp);
+                    temp.select();
+
+                    try {
+                        document.execCommand("copy");
+                        flashButton(el.copyJsonButton, "Copied");
+                    } catch (fallbackErr) {
+                        flashButton(el.copyJsonButton, "Copy failed");
+                    }
+
+                    document.body.removeChild(temp);
+                }
+            }
+
+            function downloadMetadata() {
+                if (!state.metadata) return;
+
+                const safeName = (state.artId || "artifact").replace(/[^a-zA-Z0-9_-]+/g, "_");
+                const blob = new Blob([JSON.stringify(state.metadata, null, 2)], { type: "application/json" });
+                const objectUrl = URL.createObjectURL(blob);
+
+                const a = document.createElement("a");
+                a.href = objectUrl;
+                a.download = safeName + ".json";
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+
+                URL.revokeObjectURL(objectUrl);
+            }
+
+            function flashButton(button, text) {
+                const original = button.textContent;
+                button.textContent = text;
+                button.disabled = true;
+                window.setTimeout(function () {
+                    button.textContent = original;
+                    button.disabled = false;
+                }, 1000);
+            }
+
+            el.copyJsonButton.addEventListener("click", copyMetadata);
+            el.downloadJsonButton.addEventListener("click", downloadMetadata);
+
+            el.artChip.textContent = "ART: " + (state.artId || "UNKNOWN");
+            el.metadataSource.textContent = state.artId ? ("metadata/" + state.artId + ".json") : "metadata/?.json";
+            setOpenImageLink("");
+            el.gotoButton.disabled = true;
+
+            const loaderFailsafe = window.setTimeout(hideLoader, 5000);
+            window.addEventListener("load", function () {
+                window.setTimeout(hideLoader, 1200);
             });
-        });
+
+            if (!state.artId) {
+                revealTextContent();
+                el.title.textContent = "No artifact selected";
+                el.description.textContent = "Add ?art=<ART_ID> to the URL to load metadata.";
+                el.dataPre.textContent = "{}";
+                showImageError("No image available.");
+                showError("Missing query parameter: ?art=...");
+                clearTimeout(loaderFailsafe);
+                hideLoader();
+                return;
+            }
+
+            if (TELEPORT_URL && typeof TELEPORT_URL === "string") {
+                // no-op: kept as explicit constant for easy future wiring
+            }
+
+            const metadataPath = "metadata/" + encodeURIComponent(state.artId) + ".json";
+
+            fetch(metadataPath, { cache: "no-store" })
+                .then(function (response) {
+                    if (!response.ok) {
+                        throw new Error("HTTP " + response.status + " while requesting " + metadataPath);
+                    }
+                    return response.json();
+                })
+                .then(function (data) {
+                    renderMetadata(data);
+                })
+                .catch(function (err) {
+                    revealTextContent();
+                    el.title.textContent = "Artifact unavailable";
+                    el.description.textContent = "Metadata could not be loaded for this ART id.";
+                    el.dataPre.textContent = "{}";
+                    showImageError("Unable to load image.");
+                    showError(err.message);
+                })
+                .finally(function () {
+                    clearTimeout(loaderFailsafe);
+                    hideLoader();
+                });
+        })();
     </script>
 </body>
 
