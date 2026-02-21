@@ -215,15 +215,23 @@ async function copyToClipboard(text) {
   return copied;
 }
 
-function saveBlob(blob, filename) {
-  const link = document.createElement("a");
-  link.style.display = "none";
-  document.body.appendChild(link);
-  link.href = URL.createObjectURL(blob);
-  link.download = filename;
-  link.click();
-  URL.revokeObjectURL(link.href);
-  link.remove();
+const downloadLink = document.createElement("a");
+downloadLink.style.display = "none";
+document.body.appendChild(downloadLink);
+
+function save(blob, filename) {
+  downloadLink.href = URL.createObjectURL(blob);
+  downloadLink.download = filename;
+  downloadLink.click();
+  setTimeout(() => URL.revokeObjectURL(downloadLink.href), 1000);
+}
+
+function saveString(text, filename) {
+  save(new Blob([text], { type: "text/plain" }), filename);
+}
+
+function saveArrayBuffer(buffer, filename) {
+  save(new Blob([buffer], { type: "application/octet-stream" }), filename);
 }
 
 function fitCameraToObject(camera, object3D, controls, offset = 1.2) {
@@ -395,16 +403,30 @@ async function main() {
 
   document.querySelector("#download").addEventListener("click", (e) => {
     e.preventDefault();
+    const filenameBase = (sculpture.name ?? sculptureKey).replace(/\s+/g, "_");
     const exporter = new THREE.GLTFExporter();
+    const options = {
+      trs: true,
+      onlyVisible: true,
+      truncateDrawRange: true,
+      binary: false,
+      embedImages: true,
+      maxTextureSize: 1024
+    };
+
     exporter.parse(
       scene,
       (gltfOrArrayBuffer) => {
-        const blob = new Blob([gltfOrArrayBuffer], { type: "model/gltf-binary" });
-        const filenameBase = (sculpture.name ?? sculptureKey).replace(/\s+/g, "_");
-        saveBlob(blob, `${filenameBase}.glb`);
+        if (gltfOrArrayBuffer instanceof ArrayBuffer) {
+          saveArrayBuffer(gltfOrArrayBuffer, `${filenameBase}.glb`);
+          return;
+        }
+
+        const output = JSON.stringify(gltfOrArrayBuffer, null, 2);
+        saveString(output, `${filenameBase}.gltf`);
       },
       (err) => console.log("Export error:", err),
-      { binary: true, trs: true, onlyVisible: true, embedImages: true, maxTextureSize: 1024 }
+      options
     );
   });
 
