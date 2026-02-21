@@ -1,0 +1,4847 @@
+{
+  "name": "Portal Sena",
+  "location_url": "https://www.spatial.io/s/Teleport-Lab-635f20c496af010001450462",
+  "image_base_url": "https://github.oblokos.com/art/",
+  "layers": [
+    {
+      "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "position": {
+        "x": -47.5,
+        "y": 5.0,
+        "z": -15.2
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.566889,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -48.5,
+        "y": 4.0,
+        "z": -14.0
+      },
+      "rotation": {
+        "x": 3.141593,
+        "y": 1.565922,
+        "z": 3.141593
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_INVALID_HW_PROFILE",
+      "position": {
+        "x": -46.5,
+        "y": 5.0,
+        "z": -16.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.567869,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "position": {
+        "x": -47.5,
+        "y": 3.0,
+        "z": -15.2
+      },
+      "rotation": {
+        "x": -3.041795,
+        "y": 1.565893,
+        "z": -3.041795
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -22.799944,
+        "y": 2.5,
+        "z": -54.20023
+      },
+      "rotation": {
+        "x": -0.000452,
+        "y": -0.788112,
+        "z": 0.000188
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -47.5,
+        "y": 2.0,
+        "z": -15.2
+      },
+      "rotation": {
+        "x": 3.141593,
+        "y": 1.565922,
+        "z": 3.141593
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -46.5,
+        "y": 4.0,
+        "z": -16.5
+      },
+      "rotation": {
+        "x": -0.050145,
+        "y": 1.565922,
+        "z": -0.049901
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_NOT_INTERNAL",
+      "position": {
+        "x": -22.200001,
+        "y": 2.5,
+        "z": -54.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.031958,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_CANNOT_IMPERSONATE",
+      "position": {
+        "x": -45.5,
+        "y": 2.0,
+        "z": -17.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.567869,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -46.5,
+        "y": 3.0,
+        "z": -16.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.567386,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_NOT_INTERNAL",
+      "position": {
+        "x": -22.400002,
+        "y": 2.5,
+        "z": -54.599998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.508515,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -31.000685,
+        "y": 2.5,
+        "z": -45.999817
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.352615,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 8.0,
+        "y": 8.0,
+        "z": 8.0
+      },
+      "size": {
+        "w": 8.0,
+        "h": 8.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_NOT_INTERNAL",
+      "position": {
+        "x": -22.400002,
+        "y": 2.5,
+        "z": -54.599998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.136769,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -22.597527,
+        "y": 2.5,
+        "z": -54.402981
+      },
+      "rotation": {
+        "x": -3.141349,
+        "y": -1.564943,
+        "z": -3.141349
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799965,
+        "y": 2.5,
+        "z": -55.199669
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.439957,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -22.604866,
+        "y": 2.5,
+        "z": -54.400124
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.791479,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -22.6,
+        "y": 2.5,
+        "z": -54.400002
+      },
+      "rotation": {
+        "x": -0.000452,
+        "y": -0.788112,
+        "z": 0.000188
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -22.599909,
+        "y": 2.5,
+        "z": -54.400124
+      },
+      "rotation": {
+        "x": -3.141345,
+        "y": -1.216463,
+        "z": -3.141345
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "size": {
+        "w": 1.5,
+        "h": 1.5
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -22.599943,
+        "y": 2.5,
+        "z": -54.40023
+      },
+      "rotation": {
+        "x": -0.000452,
+        "y": -0.788112,
+        "z": 0.000188
+      },
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "size": {
+        "w": 2.2,
+        "h": 2.2
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -30.999599,
+        "y": 2.500151,
+        "z": -45.998863
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.225312,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 8.0,
+        "y": 8.0,
+        "z": 8.0
+      },
+      "size": {
+        "w": 8.0,
+        "h": 8.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "position": {
+        "x": -35.989971,
+        "y": 2.5,
+        "z": -41.010124
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.797844,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "size": {
+        "w": 4.5,
+        "h": 4.5
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -22.699936,
+        "y": 2.5,
+        "z": -54.300133
+      },
+      "rotation": {
+        "x": -0.000452,
+        "y": -0.788112,
+        "z": 0.000188
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "size": {
+        "w": 1.5,
+        "h": 1.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_PARAMETER_MISMATCH",
+      "position": {
+        "x": -22.200001,
+        "y": 2.5,
+        "z": -54.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.03434,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -24.000013,
+        "y": 2.5,
+        "z": -52.999901
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.353667,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -22.500034,
+        "y": 2.5,
+        "z": -54.501076
+      },
+      "rotation": {
+        "x": -0.000452,
+        "y": -0.788112,
+        "z": 0.000188
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME",
+      "position": {
+        "x": -22.605003,
+        "y": 2.5,
+        "z": -54.40004
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.781387,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME",
+      "position": {
+        "x": -48.5,
+        "y": 5.0,
+        "z": -14.0
+      },
+      "rotation": {
+        "x": 3.141593,
+        "y": 1.564947,
+        "z": 3.141593
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "position": {
+        "x": -35.899826,
+        "y": 2.500065,
+        "z": -41.099812
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.797844,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_NOT_INTERNAL",
+      "position": {
+        "x": -22.200001,
+        "y": 2.5,
+        "z": -54.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.613083,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME",
+      "position": {
+        "x": -22.604946,
+        "y": 2.5,
+        "z": -54.400021
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.781387,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -31.000292,
+        "y": 2.5,
+        "z": -45.999191
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789982,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 10.0,
+        "y": 10.0,
+        "z": 10.0
+      },
+      "size": {
+        "w": 10.0,
+        "h": 10.0
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -22.597363,
+        "y": 2.5,
+        "z": -54.400002
+      },
+      "rotation": {
+        "x": -0.000361,
+        "y": 0.34315,
+        "z": -6.3e-05
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "size": {
+        "w": 1.5,
+        "h": 1.5
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -22.597282,
+        "y": 2.5,
+        "z": -54.40004
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.00587,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -22.0,
+        "y": 2.5,
+        "z": -55.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.998581,
+        "y": 2.5,
+        "z": -52.995838
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_SYSTEM_POWERSTATE_TRANSITION",
+      "position": {
+        "x": -22.0,
+        "y": 2.5,
+        "z": -54.900002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.788486,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -35.999886,
+        "y": 2.499957,
+        "z": -41.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789234,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -45.5,
+        "y": 3.0,
+        "z": -17.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.564947,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799931,
+        "y": 2.5,
+        "z": -55.199959
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.137998,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME",
+      "position": {
+        "x": -22.604954,
+        "y": 2.5,
+        "z": -54.39999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.432177,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -22.000011,
+        "y": 2.5,
+        "z": -54.999962
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.798219,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.31,
+        "y": 5.31,
+        "z": 5.31
+      },
+      "size": {
+        "w": 5.31,
+        "h": 5.31
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.09959,
+        "y": 2.5,
+        "z": -52.901463
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.005179,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -31.000212,
+        "y": 2.5,
+        "z": -45.999702
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789982,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 9.0,
+        "y": 9.0,
+        "z": 9.0
+      },
+      "size": {
+        "w": 9.0,
+        "h": 9.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.899876,
+        "y": 2.5,
+        "z": -41.10014
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.453766,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.199562,
+        "y": 2.5,
+        "z": -52.799511
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -45.500065,
+        "y": 4.000026,
+        "z": -17.799999
+      },
+      "rotation": {
+        "x": 3.141593,
+        "y": 1.567869,
+        "z": 3.141593
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.100008,
+        "y": 2.5,
+        "z": -52.900089
+      },
+      "rotation": {
+        "x": -3.141349,
+        "y": -1.565917,
+        "z": -3.141349
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.299875,
+        "y": 2.5,
+        "z": -52.699886
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -31.000601,
+        "y": 2.5,
+        "z": -45.998436
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789982,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 8.0,
+        "y": 8.0,
+        "z": 8.0
+      },
+      "size": {
+        "w": 8.0,
+        "h": 8.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.399935,
+        "y": 2.5,
+        "z": -52.59996
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -30.999599,
+        "y": 2.500151,
+        "z": -45.998863
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.225312,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 7.0,
+        "y": 7.0,
+        "z": 7.0
+      },
+      "size": {
+        "w": 7.0,
+        "h": 7.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_DOWN",
+      "position": {
+        "x": -31.001095,
+        "y": 2.5,
+        "z": -46.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.352615,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 7.0,
+        "y": 7.0,
+        "z": 7.0
+      },
+      "size": {
+        "w": 7.0,
+        "h": 7.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.500002,
+        "y": 2.5,
+        "z": -52.500008
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "position": {
+        "x": -35.994553,
+        "y": 2.5,
+        "z": -41.010155
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.850221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -50.5,
+        "y": 2.0,
+        "z": -11.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.522069,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -35.999741,
+        "y": 2.499957,
+        "z": -41.000099
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789234,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.5,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "size": {
+        "w": 5.5,
+        "h": 5.5
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.797939,
+        "y": 2.5,
+        "z": -55.197826
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.487075,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "position": {
+        "x": -35.990002,
+        "y": 2.5,
+        "z": -41.009998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.797844,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.099957,
+        "y": 2.497787,
+        "z": -40.900314
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789234,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.099998,
+        "y": 2.497793,
+        "z": -40.900002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789234,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.200111,
+        "y": 2.497793,
+        "z": -40.800316
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789234,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.200111,
+        "y": 2.497793,
+        "z": -40.800316
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789234,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "size": {
+        "w": 1.5,
+        "h": 1.5
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -22.0,
+        "y": 2.5,
+        "z": -55.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.5,
+        "y": 5.5,
+        "z": 5.5
+      },
+      "size": {
+        "w": 5.5,
+        "h": 5.5
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.899935,
+        "y": 2.5,
+        "z": -55.100098
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "size": {
+        "w": 4.5,
+        "h": 4.5
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.9,
+        "y": 2.5,
+        "z": -54.931976
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799931,
+        "y": 2.5,
+        "z": -55.199959
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799999,
+        "y": 2.5,
+        "z": -55.199997
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "position": {
+        "x": -35.994831,
+        "y": 2.5,
+        "z": -41.009998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.745298,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -48.5,
+        "y": 3.0,
+        "z": -14.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.565922,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.499851,
+        "y": 2.5,
+        "z": -43.499981
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.35472,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -35.900246,
+        "y": 2.500042,
+        "z": -41.100094
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.683017,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.899876,
+        "y": 2.50001,
+        "z": -41.100052
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.047074,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.7,
+        "y": 2.7,
+        "z": 2.7
+      },
+      "size": {
+        "w": 2.7,
+        "h": 2.7
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799913,
+        "y": 2.5,
+        "z": -55.199863
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.090836,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.5,
+        "y": 2.5,
+        "z": -41.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.781387,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -35.900002,
+        "y": 2.5,
+        "z": -41.099998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.944884,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.8,
+        "y": 4.8,
+        "z": 4.8
+      },
+      "size": {
+        "w": 4.8,
+        "h": 4.8
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.901901,
+        "y": 2.5,
+        "z": -41.099674
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.558268,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.901901,
+        "y": 2.5,
+        "z": -41.099674
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.047074,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.39996,
+        "y": 2.5,
+        "z": -41.599823
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.781387,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.7,
+        "y": 2.7,
+        "z": 2.7
+      },
+      "size": {
+        "w": 2.7,
+        "h": 2.7
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -35.900002,
+        "y": 2.500042,
+        "z": -41.099922
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.683017,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -35.700001,
+        "y": 2.500042,
+        "z": -41.299923
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.683017,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.6,
+        "y": 3.6,
+        "z": 3.6
+      },
+      "size": {
+        "w": 3.6,
+        "h": 3.6
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -35.600002,
+        "y": 2.500042,
+        "z": -41.399921
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.683017,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.9,
+        "y": 2.9,
+        "z": 2.9
+      },
+      "size": {
+        "w": 2.9,
+        "h": 2.9
+      }
+    },
+    {
+      "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "position": {
+        "x": -35.500004,
+        "y": 2.500042,
+        "z": -41.49992
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.683017,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.699833,
+        "y": 2.5,
+        "z": -41.300053
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.047074,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.299927,
+        "y": 2.5,
+        "z": -41.699997
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.885994,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.6,
+        "y": 2.6,
+        "z": 2.6
+      },
+      "size": {
+        "w": 2.6,
+        "h": 2.6
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.699833,
+        "y": 2.5,
+        "z": -41.300053
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.349109,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -35.901562,
+        "y": 2.5,
+        "z": -41.09692
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.151964,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -22.099966,
+        "y": 2.500029,
+        "z": -54.899998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.798219,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.8,
+        "y": 4.8,
+        "z": 4.8
+      },
+      "size": {
+        "w": 4.8,
+        "h": 4.8
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.303783,
+        "y": 2.5,
+        "z": -41.697727
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.666917,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.6,
+        "y": 2.6,
+        "z": 2.6
+      },
+      "size": {
+        "w": 2.6,
+        "h": 2.6
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -22.096107,
+        "y": 2.5,
+        "z": -54.900066
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.798219,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.3,
+        "y": 5.3,
+        "z": 5.3
+      },
+      "size": {
+        "w": 5.3,
+        "h": 5.3
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -22.099934,
+        "y": 2.500025,
+        "z": -54.899933
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.798219,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "size": {
+        "w": 4.5,
+        "h": 4.5
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.300003,
+        "y": 2.5,
+        "z": -41.699997
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.771688,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.300003,
+        "y": 2.5,
+        "z": -41.699997
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.771688,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.300003,
+        "y": 2.5,
+        "z": -41.699997
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.990912,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.299923,
+        "y": 2.5,
+        "z": -41.699955
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.095658,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.4,
+        "y": 2.4,
+        "z": 2.4
+      },
+      "size": {
+        "w": 2.4,
+        "h": 2.4
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -47.5,
+        "y": 4.0,
+        "z": -15.2
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.565431,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.303665,
+        "y": 2.5,
+        "z": -41.697643
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.56222,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.4,
+        "y": 2.4,
+        "z": 2.4
+      },
+      "size": {
+        "w": 2.4,
+        "h": 2.4
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799931,
+        "y": 2.5,
+        "z": -55.199959
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.487075,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.8,
+        "y": 1.8,
+        "z": 1.8
+      },
+      "size": {
+        "w": 1.8,
+        "h": 1.8
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -34.200085,
+        "y": 2.5,
+        "z": -42.800007
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.3,
+        "y": 1.3,
+        "z": 1.3
+      },
+      "size": {
+        "w": 1.3,
+        "h": 1.3
+      }
+    },
+    {
+      "id": "ERROR_INVALID_HW_PROFILE",
+      "position": {
+        "x": -35.04995,
+        "y": 2.499985,
+        "z": -41.949951
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "position": {
+        "x": -22.496141,
+        "y": 2.5,
+        "z": -54.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.791479,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "position": {
+        "x": -34.499912,
+        "y": 2.5,
+        "z": -42.499905
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78176,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -33.0,
+        "y": 2.5,
+        "z": -44.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.5,
+        "y": 2.5,
+        "z": -42.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.89441,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -48.5,
+        "y": 2.0,
+        "z": -14.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.523023,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -33.0,
+        "y": 2.5,
+        "z": -44.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.900002,
+        "y": 2.5,
+        "z": -44.099998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.200962,
+        "y": 2.5,
+        "z": -41.799129
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.095658,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "size": {
+        "w": 2.3,
+        "h": 2.3
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.203342,
+        "y": 2.495575,
+        "z": -41.798206
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.457665,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "size": {
+        "w": 2.3,
+        "h": 2.3
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.104168,
+        "y": 2.5,
+        "z": -41.896809
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.095658,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "size": {
+        "w": 2.2,
+        "h": 2.2
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.103722,
+        "y": 2.495578,
+        "z": -41.897675
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.457665,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "size": {
+        "w": 2.2,
+        "h": 2.2
+      }
+    },
+    {
+      "id": "ERROR_INVALID_HW_PROFILE",
+      "position": {
+        "x": -35.050014,
+        "y": 2.5,
+        "z": -41.950054
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "size": {
+        "w": 2.2,
+        "h": 2.2
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.100613,
+        "y": 2.5,
+        "z": -41.899456
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.095658,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.1,
+        "y": 2.1,
+        "z": 2.1
+      },
+      "size": {
+        "w": 2.1,
+        "h": 2.1
+      }
+    },
+    {
+      "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "position": {
+        "x": -35.103722,
+        "y": 2.5,
+        "z": -41.89772
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.457665,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.1,
+        "y": 2.1,
+        "z": 2.1
+      },
+      "size": {
+        "w": 2.1,
+        "h": 2.1
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "position": {
+        "x": -35.099926,
+        "y": 2.5,
+        "z": -41.900002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.095658,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.104832,
+        "y": 2.497793,
+        "z": -40.90036
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.894027,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.10379,
+        "y": 2.497787,
+        "z": -40.900314
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.68485,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "size": {
+        "w": 3.5,
+        "h": 3.5
+      }
+    },
+    {
+      "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "position": {
+        "x": -10.544826,
+        "y": 3.80209,
+        "z": -37.434612
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.568365,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "position": {
+        "x": -34.399937,
+        "y": 2.5,
+        "z": -42.599949
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78176,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "position": {
+        "x": -34.300003,
+        "y": 2.502872,
+        "z": -42.699997
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78176,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.4,
+        "y": 1.4,
+        "z": 1.4
+      },
+      "size": {
+        "w": 1.4,
+        "h": 1.4
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -46.5,
+        "y": 2.0,
+        "z": -16.5
+      },
+      "rotation": {
+        "x": 3.141593,
+        "y": 1.485668,
+        "z": 3.141593
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -34.200001,
+        "y": 2.5,
+        "z": -42.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -34.103592,
+        "y": 2.5,
+        "z": -42.900356
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -34.100002,
+        "y": 2.5,
+        "z": -42.899998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "size": {
+        "w": 1.1,
+        "h": 1.1
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -34.000004,
+        "y": 2.5,
+        "z": -42.999996
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "size": {
+        "w": 1.1,
+        "h": 1.1
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -34.000004,
+        "y": 2.5,
+        "z": -42.999996
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.500038,
+        "y": 2.5,
+        "z": -42.500057
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.68485,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.400002,
+        "y": 2.5,
+        "z": -42.599998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.999162,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "size": {
+        "w": 1.1,
+        "h": 1.1
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.399971,
+        "y": 2.5,
+        "z": -42.599953
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.580212,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "size": {
+        "w": 1.1,
+        "h": 1.1
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.300095,
+        "y": 2.5,
+        "z": -42.70005
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.103757,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.300087,
+        "y": 2.5,
+        "z": -42.699806
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.580212,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.200005,
+        "y": 2.5,
+        "z": -42.79998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.103757,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.100033,
+        "y": 2.5,
+        "z": -42.900032
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.20848,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "size": {
+        "w": 1.1,
+        "h": 1.1
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.000008,
+        "y": 2.5,
+        "z": -42.999992
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.20848,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.200005,
+        "y": 2.5,
+        "z": -42.799995
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.475409,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.100006,
+        "y": 2.5,
+        "z": -42.899994
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.370867,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.1,
+        "z": 1.1
+      },
+      "size": {
+        "w": 1.1,
+        "h": 1.1
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.000008,
+        "y": 2.5,
+        "z": -42.999992
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.265948,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.599998,
+        "y": 2.5,
+        "z": -42.400002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789608,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.699963,
+        "y": 2.5,
+        "z": -42.299896
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789608,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "size": {
+        "w": 0.9,
+        "h": 0.9
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.800243,
+        "y": 2.5,
+        "z": -42.200005
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789608,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "size": {
+        "w": 0.8,
+        "h": 0.8
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -34.900078,
+        "y": 2.5,
+        "z": -42.100006
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789608,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 0.7
+      },
+      "size": {
+        "w": 0.7,
+        "h": 0.7
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -35.000095,
+        "y": 2.5,
+        "z": -41.999901
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789608,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "size": {
+        "w": 0.6,
+        "h": 0.6
+      }
+    },
+    {
+      "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "position": {
+        "x": -35.099991,
+        "y": 2.5,
+        "z": -41.900009
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.789608,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.899967,
+        "y": 2.5,
+        "z": -43.100025
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.899693,
+        "y": 2.5,
+        "z": -43.100403
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "size": {
+        "w": 0.9,
+        "h": 0.9
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.899948,
+        "y": 2.500052,
+        "z": -44.099998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.800007,
+        "y": 2.498517,
+        "z": -43.199993
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "size": {
+        "w": 0.9,
+        "h": 0.9
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.699917,
+        "y": 2.498517,
+        "z": -43.299915
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "size": {
+        "w": 0.8,
+        "h": 0.8
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.60006,
+        "y": 2.498517,
+        "z": -43.399982
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 0.7
+      },
+      "size": {
+        "w": 0.7,
+        "h": 0.7
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.499893,
+        "y": 2.498517,
+        "z": -43.499863
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      },
+      "size": {
+        "w": 0.6,
+        "h": 0.6
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.400013,
+        "y": 2.498517,
+        "z": -43.599987
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "position": {
+        "x": -34.599911,
+        "y": 2.5,
+        "z": -42.399906
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78176,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.9,
+        "y": 0.9,
+        "z": 0.9
+      },
+      "size": {
+        "w": 0.9,
+        "h": 0.9
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.299877,
+        "y": 2.498517,
+        "z": -43.698772
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.4,
+        "y": 0.4,
+        "z": 0.4
+      },
+      "size": {
+        "w": 0.4,
+        "h": 0.4
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.19986,
+        "y": 2.498517,
+        "z": -43.799885
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+      },
+      "size": {
+        "w": 0.3,
+        "h": 0.3
+      }
+    },
+    {
+      "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "position": {
+        "x": -33.100018,
+        "y": 2.498517,
+        "z": -43.899982
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.807221,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.2,
+        "y": 0.2,
+        "z": 0.2
+      },
+      "size": {
+        "w": 0.2,
+        "h": 0.2
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.499947,
+        "y": 2.5,
+        "z": -43.49855
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.227423,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.399845,
+        "y": 2.5,
+        "z": -43.599998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.389854,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "size": {
+        "w": 2.2,
+        "h": 2.2
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.400002,
+        "y": 2.5,
+        "z": -43.598656
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.192581,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.2,
+        "y": 2.2,
+        "z": 2.2
+      },
+      "size": {
+        "w": 2.2,
+        "h": 2.2
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.499947,
+        "y": 2.5,
+        "z": -43.49855
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.227423,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "size": {
+        "w": 1.5,
+        "h": 1.5
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.499851,
+        "y": 2.5,
+        "z": -43.499981
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.35472,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "size": {
+        "w": 1.5,
+        "h": 1.5
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.299973,
+        "y": 2.5,
+        "z": -43.700058
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.424757,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.4,
+        "y": 2.4,
+        "z": 2.4
+      },
+      "size": {
+        "w": 2.4,
+        "h": 2.4
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.300003,
+        "y": 2.5,
+        "z": -43.698654
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.157733,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.4,
+        "y": 2.4,
+        "z": 2.4
+      },
+      "size": {
+        "w": 2.4,
+        "h": 2.4
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.199833,
+        "y": 2.5,
+        "z": -43.800079
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.494615,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.6,
+        "y": 2.6,
+        "z": 2.6
+      },
+      "size": {
+        "w": 2.6,
+        "h": 2.6
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.200005,
+        "y": 2.5,
+        "z": -43.798653
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.10538,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.6,
+        "y": 2.6,
+        "z": 2.6
+      },
+      "size": {
+        "w": 2.6,
+        "h": 2.6
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.100006,
+        "y": 2.5,
+        "z": -43.899994
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.634124,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.099911,
+        "y": 2.5,
+        "z": -43.898651
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.018092,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.000008,
+        "y": 2.5,
+        "z": -43.999992
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.703943,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "position": {
+        "x": -33.000008,
+        "y": 2.5,
+        "z": -43.99865
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.878358,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -45.5,
+        "y": 5.0,
+        "z": -17.799999
+      },
+      "rotation": {
+        "x": -0.165366,
+        "y": 1.569329,
+        "z": -0.165121
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.799946,
+        "y": 2.500052,
+        "z": -44.200001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.296968,
+        "y": 2.5,
+        "z": -52.700661
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "size": {
+        "w": 1.6,
+        "h": 1.6
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.699947,
+        "y": 2.500052,
+        "z": -44.299999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.700008,
+        "y": 2.500044,
+        "z": -44.299999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.600193,
+        "y": 2.500114,
+        "z": -44.400002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.500095,
+        "y": 2.500108,
+        "z": -44.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.500095,
+        "y": 2.50009,
+        "z": -44.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.400219,
+        "y": 2.500105,
+        "z": -44.599998
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.300068,
+        "y": 2.500099,
+        "z": -44.700001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.200275,
+        "y": 2.500121,
+        "z": -44.799999
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.100273,
+        "y": 2.500121,
+        "z": -44.900002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.000275,
+        "y": 2.50018,
+        "z": -45.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.300274,
+        "y": 2.50018,
+        "z": -44.700001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_BAD_INHERITANCE_ACL",
+      "position": {
+        "x": -32.100391,
+        "y": 2.500129,
+        "z": -44.900002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.78886,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "size": {
+        "w": 0.5,
+        "h": 0.5
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.399935,
+        "y": 2.5,
+        "z": -52.59996
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "size": {
+        "w": 1.2,
+        "h": 1.2
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.499847,
+        "y": 2.5,
+        "z": -44.499931
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.353667,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.501904,
+        "y": 2.499994,
+        "z": -44.500301
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.226156,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.5,
+        "y": 2.5,
+        "z": -44.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.353667,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.5,
+        "y": 2.5,
+        "z": -44.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.226156,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.299999,
+        "y": 2.5,
+        "z": -44.700001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.016906,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.299999,
+        "y": 2.5,
+        "z": -44.700001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.016906,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.299999,
+        "y": 2.5,
+        "z": -44.699856
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.528161,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "size": {
+        "w": 5.0,
+        "h": 5.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.299999,
+        "y": 2.5,
+        "z": -44.699856
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.528161,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "size": {
+        "w": 4.0,
+        "h": 4.0
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.299999,
+        "y": 2.5,
+        "z": -44.700001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.016906,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "size": {
+        "w": 4.5,
+        "h": 4.5
+      }
+    },
+    {
+      "id": "ERROR_NO_USER_KEYS",
+      "position": {
+        "x": -32.299999,
+        "y": 2.5,
+        "z": -44.699856
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.528161,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 4.5,
+        "y": 4.5,
+        "z": 4.5
+      },
+      "size": {
+        "w": 4.5,
+        "h": 4.5
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.500002,
+        "y": 2.5,
+        "z": -52.500008
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "size": {
+        "w": 0.8,
+        "h": 0.8
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -24.399401,
+        "y": 2.5,
+        "z": -52.599987
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.4,
+        "y": 1.4,
+        "z": 1.4
+      },
+      "size": {
+        "w": 1.4,
+        "h": 1.4
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.898575,
+        "y": 2.5,
+        "z": -53.095787
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.800741,
+        "y": 2.5,
+        "z": -53.200001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.69861,
+        "y": 2.5,
+        "z": -53.295647
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.698797,
+        "y": 2.5,
+        "z": -53.296066
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "size": {
+        "w": 0.8,
+        "h": 0.8
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.800741,
+        "y": 2.5,
+        "z": -53.200001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.4,
+        "y": 1.4,
+        "z": 1.4
+      },
+      "size": {
+        "w": 1.4,
+        "h": 1.4
+      }
+    },
+    {
+      "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "position": {
+        "x": -21.799965,
+        "y": 2.5,
+        "z": -55.199669
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.090836,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.8,
+        "y": 1.8,
+        "z": 1.8
+      },
+      "size": {
+        "w": 1.8,
+        "h": 1.8
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.998596,
+        "y": 2.5,
+        "z": -52.995785
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.8,
+        "y": 1.8,
+        "z": 1.8
+      },
+      "size": {
+        "w": 1.8,
+        "h": 1.8
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -23.89842,
+        "y": 2.5,
+        "z": -53.09536
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.790357,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.6,
+        "y": 1.6,
+        "z": 1.6
+      },
+      "size": {
+        "w": 1.6,
+        "h": 1.6
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -24.00009,
+        "y": 2.5,
+        "z": -53.000061
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.226156,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.0,
+        "y": 3.0,
+        "z": 3.0
+      },
+      "size": {
+        "w": 3.0,
+        "h": 3.0
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -23.799999,
+        "y": 2.5,
+        "z": -53.200001
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.353667,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -23.600203,
+        "y": 2.5,
+        "z": -53.400402
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.353667,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "size": {
+        "w": 2.3,
+        "h": 2.3
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -23.399998,
+        "y": 2.5,
+        "z": -53.600002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.353667,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -23.800392,
+        "y": 2.5,
+        "z": -53.200706
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.226156,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.8,
+        "y": 2.8,
+        "z": 2.8
+      },
+      "size": {
+        "w": 2.8,
+        "h": 2.8
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -23.599997,
+        "y": 2.5,
+        "z": -53.400169
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.226156,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.3,
+        "y": 2.3,
+        "z": 2.3
+      },
+      "size": {
+        "w": 2.3,
+        "h": 2.3
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -23.399998,
+        "y": 2.5,
+        "z": -53.600002
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.226156,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "size": {
+        "w": 2.0,
+        "h": 2.0
+      }
+    },
+    {
+      "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "position": {
+        "x": -49.5,
+        "y": 2.0,
+        "z": -12.6
+      },
+      "rotation": {
+        "x": 3.141593,
+        "y": 1.564947,
+        "z": 3.141593
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_OBJECT_IN_LIST",
+      "position": {
+        "x": -49.5,
+        "y": 3.0,
+        "z": -12.6
+      },
+      "rotation": {
+        "x": -3.058506,
+        "y": 1.567869,
+        "z": -3.058262
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_CLUSTER_NETWORK_NOT_INTERNAL",
+      "position": {
+        "x": -49.5,
+        "y": 4.0,
+        "z": -12.6
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.564947,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "position": {
+        "x": -49.5,
+        "y": 5.0,
+        "z": -12.6
+      },
+      "rotation": {
+        "x": -0.035884,
+        "y": 1.563969,
+        "z": -0.03564
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "size": {
+        "w": 1.0,
+        "h": 1.0
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.104832,
+        "y": 2.497793,
+        "z": -40.90036
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.894027,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.4,
+        "y": 3.4,
+        "z": 3.4
+      },
+      "size": {
+        "w": 3.4,
+        "h": 3.4
+      }
+    },
+    {
+      "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "position": {
+        "x": -36.10379,
+        "y": 2.497787,
+        "z": -40.900314
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.68485,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 3.4,
+        "y": 3.4,
+        "z": 3.4
+      },
+      "size": {
+        "w": 3.4,
+        "h": 3.4
+      }
+    },
+    {
+      "id": "ERROR_CANNOT_IMPERSONATE",
+      "position": {
+        "x": -31.000097,
+        "y": 2.5,
+        "z": -46.000385
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.004143,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 6.0,
+        "y": 6.0,
+        "z": 6.0
+      },
+      "size": {
+        "w": 6.0,
+        "h": 6.0
+      }
+    },
+    {
+      "id": "ERROR_CANNOT_IMPERSONATE",
+      "position": {
+        "x": -31.000219,
+        "y": 2.5,
+        "z": -46.000191
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.566402,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 6.0,
+        "y": 6.0,
+        "z": 6.0
+      },
+      "size": {
+        "w": 6.0,
+        "h": 6.0
+      }
+    },
+    {
+      "id": "ERROR_CANNOT_IMPERSONATE",
+      "position": {
+        "x": -31.000097,
+        "y": 2.5,
+        "z": -46.000385
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.004143,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    },
+    {
+      "id": "ERROR_CANNOT_IMPERSONATE",
+      "position": {
+        "x": -30.999998,
+        "y": 2.5,
+        "z": -46.000263
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -1.566402,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 2.5
+      },
+      "size": {
+        "w": 2.5,
+        "h": 2.5
+      }
+    }
+  ]
+}
