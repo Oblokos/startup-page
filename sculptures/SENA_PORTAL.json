@@ -2558,28 +2558,6 @@
     {
       "id": "ERROR_EXCEPTION_IN_SERVICE",
       "position": {
-        "x": -10.544826,
-        "y": 3.80209,
-        "z": -37.434612
-      },
-      "rotation": {
-        "x": 0.0,
-        "y": -1.568365,
-        "z": 0.0
-      },
-      "scale": {
-        "x": 2.0,
-        "y": 2.0,
-        "z": 2.0
-      },
-      "size": {
-        "w": 2.0,
-        "h": 2.0
-      }
-    },
-    {
-      "id": "ERROR_EXCEPTION_IN_SERVICE",
-      "position": {
         "x": -34.399937,
         "y": 2.5,
         "z": -42.599949
