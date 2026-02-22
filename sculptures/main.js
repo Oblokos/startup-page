@@ -370,6 +370,9 @@ async function main() {
   }
 
   function makePlane(layer) {
+    if (layer.role === "sample") {
+      return
+    }
     const size = DEFAULT_SIZE;
     const geo = new THREE.PlaneBufferGeometry(size.w, size.h);
     const mat = getMaterial(layer.id);
