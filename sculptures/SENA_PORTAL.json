@@ -5,6 +5,7 @@
   "layers": [
     {
       "id": "ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS",
+      "role": "sample",
       "position": {
         "x": -47.5,
         "y": 5.0,
@@ -27,6 +28,7 @@
     },
     {
       "id": "ERROR_CAN_NOT_DEL_LOCAL_WINS",
+      "role": "sample",
       "position": {
         "x": -48.5,
         "y": 4.0,
@@ -49,6 +51,7 @@
     },
     {
       "id": "ERROR_INVALID_HW_PROFILE",
+      "role": "sample",
       "position": {
         "x": -46.5,
         "y": 5.0,
@@ -71,6 +74,7 @@
     },
     {
       "id": "ERROR_EXCEPTION_IN_SERVICE",
+      "role": "sample",
       "position": {
         "x": -47.5,
         "y": 3.0,
@@ -115,6 +119,7 @@
     },
     {
       "id": "ERROR_CIRCULAR_DEPENDENCY",
+      "role": "sample",
       "position": {
         "x": -47.5,
         "y": 2.0,
@@ -137,6 +142,7 @@
     },
     {
       "id": "ERROR_NO_USER_KEYS",
+      "role": "sample",
       "position": {
         "x": -46.5,
         "y": 4.0,
@@ -181,6 +187,7 @@
     },
     {
       "id": "ERROR_CANNOT_IMPERSONATE",
+      "role": "sample",
       "position": {
         "x": -45.5,
         "y": 2.0,
@@ -203,6 +210,7 @@
     },
     {
       "id": "ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE",
+      "role": "sample",
       "position": {
         "x": -46.5,
         "y": 3.0,
@@ -577,6 +585,7 @@
     },
     {
       "id": "ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME",
+      "role": "sample",
       "position": {
         "x": -48.5,
         "y": 5.0,
@@ -819,6 +828,7 @@
     },
     {
       "id": "ERROR_CLUSTER_NODE_DOWN",
+      "role": "sample",
       "position": {
         "x": -45.5,
         "y": 3.0,
@@ -995,6 +1005,7 @@
     },
     {
       "id": "ERROR_BAD_INHERITANCE_ACL",
+      "role": "sample",
       "position": {
         "x": -45.500065,
         "y": 4.000026,
@@ -1193,6 +1204,7 @@
     },
     {
       "id": "ERROR_QUOTA_LIST_INCONSISTENT",
+      "role": "sample",
       "position": {
         "x": -50.5,
         "y": 2.0,
@@ -1501,6 +1513,7 @@
     },
     {
       "id": "ERROR_IO_REISSUE_AS_CACHED",
+      "role": "sample",
       "position": {
         "x": -48.5,
         "y": 3.0,
@@ -2073,6 +2086,7 @@
     },
     {
       "id": "ERROR_CANT_ENABLE_DENY_ONLY",
+      "role": "sample",
       "position": {
         "x": -47.5,
         "y": 4.0,
@@ -2271,6 +2285,7 @@
     },
     {
       "id": "ERROR_CLUSTER_NODE_PAUSED",
+      "role": "sample",
       "position": {
         "x": -48.5,
         "y": 2.0,
@@ -2601,6 +2616,7 @@
     },
     {
       "id": "ERROR_DEPENDENT_SERVICES_RUNNING",
+      "role": "sample",
       "position": {
         "x": -46.5,
         "y": 2.0,
@@ -3657,6 +3673,7 @@
     },
     {
       "id": "ERROR_DISK_REPAIR_UNSUCCESSFUL",
+      "role": "sample",
       "position": {
         "x": -45.5,
         "y": 5.0,
@@ -4603,6 +4620,7 @@
     },
     {
       "id": "ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY",
+      "role": "sample",
       "position": {
         "x": -49.5,
         "y": 2.0,
@@ -4625,6 +4643,7 @@
     },
     {
       "id": "ERROR_OBJECT_IN_LIST",
+      "role": "sample",
       "position": {
         "x": -49.5,
         "y": 3.0,
@@ -4647,6 +4666,7 @@
     },
     {
       "id": "ERROR_CLUSTER_NETWORK_NOT_INTERNAL",
+      "role": "sample",
       "position": {
         "x": -49.5,
         "y": 4.0,
@@ -4669,6 +4689,7 @@
     },
     {
       "id": "ERROR_PRINTER_NOT_SHAREABLE",
+      "role": "sample",
       "position": {
         "x": -49.5,
         "y": 5.0,

@@ -357,6 +357,7 @@
     },
     {
       "id": "ERROR_LUIDS_EXHAUSTED",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -379,6 +380,7 @@
     },
     {
       "id": "ERROR_BAD_TOKEN_TYPE",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -533,6 +535,7 @@
     },
     {
       "id": "ERROR_PASSWORD_MUST_CHANGE",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -555,6 +558,7 @@
     },
     {
       "id": "ERROR_PRINTER_DELETED",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -929,6 +933,7 @@
     },
     {
       "id": "ERROR_CLUSTER_PARAMETER_OUT_OF_BOUNDS",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -1347,6 +1352,7 @@
     },
     {
       "id": "ERROR_INVALID_PRINT_MONITOR",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -1633,6 +1639,7 @@
     },
     {
       "id": "ERROR_CANT_CROSS_RM_BOUNDARY",
+      "role": "sample",
       "position": {
         "x": 8.497826,
         "y": 4.009221,
@@ -1655,6 +1662,7 @@
     },
     {
       "id": "ERROR_CLUSTER_GROUP_QUEUED",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -1809,6 +1817,7 @@
     },
     {
       "id": "ERROR_ALLOTTED_SPACE_EXCEEDED",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -1897,6 +1906,7 @@
     },
     {
       "id": "ERROR_CLUSTER_BACKUP_IN_PROGRESS",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -2117,6 +2127,7 @@
     },
     {
       "id": "ERROR_LOG_BLOCKS_EXHAUSTED",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
@@ -2139,6 +2150,7 @@
     },
     {
       "id": "ERROR_LOG_MULTIPLEXED",
+      "role": "sample",
       "position": {
         "x": 8.5,
         "y": 4.0,
