@@ -467,6 +467,11 @@ async function main() {
 
   document.querySelector("#download").addEventListener("click", (e) => {
     e.preventDefault();
+      // (opcional pero recomendado)
+    scene.updateMatrixWorld(true);
+
+    // 1) Sanitizar geometrías antes de exportar (ver sección 3)
+    sanitizeForGLTF(scene);
     const filenameBase = (sculpture.name ?? sculptureKey).replace(/\s+/g, "_");
     const exporter = new THREE.GLTFExporter();
     const options = {
@@ -579,3 +584,30 @@ main().catch((e) => {
   setLoading(false);
   showStatus(e.message || "Unexpected error while loading sculpture.", "danger");
 });
+
+function sanitizeForGLTF(root) {
+  root.traverse((o) => {
+    if (!o.isMesh || !o.geometry) return;
+
+    const g = o.geometry;
+    if (!g.isBufferGeometry) return;
+
+    const n = g.getAttribute("normal");
+
+    // Si no hay normales o no tienen .clone() (caso del error)
+    if (!n || typeof n.clone !== "function") {
+      g.deleteAttribute("normal");
+      g.computeVertexNormals();
+      g.normalizeNormals?.(); // existe en algunas versiones
+      return;
+    }
+
+    // Si tenés el warning de "normalized normal attribute..."
+    // podés forzar una normalización segura:
+    try {
+      g.normalizeNormals?.();
+    } catch (_) {
+      // si no existe el método, lo ignorás
+    }
+  });
+}
