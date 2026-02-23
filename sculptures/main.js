@@ -3,7 +3,7 @@
 const SCULPTURE_BASE_PATH = "https://github.oblokos.com/sculptures/";
 const THEME_STORAGE_KEY = "sculpture-ui-theme";
 const COPY_FEEDBACK_MS = 1200;
-const DEFAULT_SIZE = { w: 1.5, h: 0.75 };
+const FALLBACK_SIZE = { w: 1, h: 1 };
 
 function getQueryParam(name, fallback = null) {
   const params = new URLSearchParams(window.location.search);
@@ -323,6 +323,31 @@ async function main() {
   let pendingTextures = 0;
   let textureWarningShown = false;
 
+  const textureReadyCallbacks = new Map();
+
+  function getPlaneSizeFromTexture(texture) {
+    const image = texture?.image;
+    const width = Number(image?.naturalWidth ?? image?.videoWidth ?? image?.width ?? 0);
+    const height = Number(image?.naturalHeight ?? image?.videoHeight ?? image?.height ?? 0);
+
+    if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) {
+      return { ...FALLBACK_SIZE };
+    }
+
+    const maxDimension = Math.max(width, height);
+    return { w: width / maxDimension, h: height / maxDimension };
+  }
+
+  function applyRealSize(front, back, texture) {
+    const size = getPlaneSizeFromTexture(texture);
+
+    front.geometry.dispose();
+    back.geometry.dispose();
+
+    front.geometry = new THREE.PlaneBufferGeometry(size.w, size.h);
+    back.geometry = new THREE.PlaneBufferGeometry(size.w, size.h);
+  }
+
   function updateTextureLoading() {
     if (pendingTextures > 0) {
       setLoading(true, `Loading layers (${pendingTextures})...`);
@@ -331,8 +356,23 @@ async function main() {
     setLoading(false);
   }
 
-  function getMaterial(id) {
-    if (matCache.has(id)) return matCache.get(id);
+  function getMaterial(id, onTextureReady) {
+    if (matCache.has(id)) {
+      const cached = matCache.get(id);
+      if (typeof onTextureReady === "function") {
+        const callbacks = textureReadyCallbacks.get(id);
+        if (callbacks) {
+          callbacks.push(onTextureReady);
+        } else {
+          onTextureReady(cached.map);
+        }
+      }
+      return cached;
+    }
+
+    const readyCallbacks = [];
+    if (typeof onTextureReady === "function") readyCallbacks.push(onTextureReady);
+    textureReadyCallbacks.set(id, readyCallbacks);
 
     pendingTextures += 1;
     updateTextureLoading();
@@ -342,6 +382,17 @@ async function main() {
       () => {
         pendingTextures = Math.max(0, pendingTextures - 1);
         updateTextureLoading();
+
+        const callbacks = textureReadyCallbacks.get(id) ?? [];
+        for (const callback of callbacks) {
+          try {
+            callback(tex);
+          } catch (_) {
+            // Ignore callback errors for size updates.
+          }
+        }
+        textureReadyCallbacks.delete(id);
+
         requestRenderIfNotRequested();
       },
       undefined,
@@ -354,6 +405,7 @@ async function main() {
           textureWarningShown = true;
         }
 
+        textureReadyCallbacks.delete(id);
         requestRenderIfNotRequested();
       }
     );
@@ -371,14 +423,23 @@ async function main() {
 
   function makePlane(layer) {
     if (layer.role === "sample") {
-      return
+      return;
     }
-    const size = DEFAULT_SIZE;
-    const geo = new THREE.PlaneBufferGeometry(size.w, size.h);
-    const mat = getMaterial(layer.id);
 
-    const front = new THREE.Mesh(geo, mat);
-    const back = new THREE.Mesh(geo, mat);
+    const geo = new THREE.PlaneBufferGeometry(FALLBACK_SIZE.w, FALLBACK_SIZE.h);
+    let front;
+    let back;
+
+    const mat = getMaterial(layer.id, (texture) => {
+      if (!front || !back) return;
+      applyRealSize(front, back, texture);
+      centerObjectAtOrigin(group);
+      fitCameraToObject(camera, group, controls, 1.35);
+      requestRenderIfNotRequested();
+    });
+
+    front = new THREE.Mesh(geo, mat);
+    back = new THREE.Mesh(geo, mat);
     back.rotation.y = Math.PI;
     back.scale.x = -1;
 
